@@ -1550,3 +1550,4 @@ sp "$IFEO\ie_to_edge_stub.exe\0" 'Debugger' "$CMD $DIR\OpenWebSearch.cmd" -force
 ni "$IFEO\msedge.exe\0" -force >''
 sp "$IFEO\msedge.exe" 'UseFilter' 1 -type Dword -force
 sp "$IFEO\msedge.exe\0" 'FilterFullPath' "$MSEP\msedge.exe" -force
+sp "$IFEO\msedge.exe\0" 'Debugger' "$CMD $DIR\OpenWebSearch.cmd" -force
