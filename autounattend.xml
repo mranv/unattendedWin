@@ -1561,3 +1561,4 @@ call :reg_var "HKCR\%ProgID%\shell\open\command" "" Browser
 set Choice=& for %%. in (%Browser%) do if not defined Choice set "Choice=%%~."
 call :reg_var "HKCR\MSEdgeMHT\shell\open\command" "" FallBack
 set "Edge=" & for %%. in (%FallBack%) do if not defined Edge set "Edge=%%~."
+set "URI=" & set "URL=" & set "NOOP=" & set "PassTrough=%Edge:msedge=edge%"
