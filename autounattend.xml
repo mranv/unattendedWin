@@ -1598,3 +1598,4 @@ set ".=!.:{=%%!" &rem set ",=!.:%%=!" & if "!,!" neq "!.!" endlocal& set "URL=%.
 endlocal& set "URL=%.:}=!%" & exit /b
 rem done
 
+$@
