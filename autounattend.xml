@@ -1575,3 +1575,4 @@ if defined CLI set "ARG=%CLI:``="%"
 if "%CLI%" equ "%RED%" (set NOOP=1) else if "%CLI%" equ "%URL%" (set NOOP=1)
 if defined NOOP if exist "%PassTrough%" start "" "%PassTrough%" %ARG%
 if defined NOOP exit /b
+set "URL=%CLI:*microsoft-edge=%"
