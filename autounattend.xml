@@ -1583,3 +1583,4 @@ call :dec_url
 start "" "%Choice%" "%URL%"
 exit
 
+:reg_var [USAGE] call :reg_var "HKCU\Volatile Environment" value-or-"" variable [extra options]
