@@ -547,3 +547,4 @@ foreach ($key in $registryKeysTeredo) {
     New-ItemProperty -Path $key.Path -Name $key.Name -PropertyType $key.Type -Value $key.Value -Force
 }
 netsh interface teredo set state disabled
+
