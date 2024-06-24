@@ -78,3 +78,4 @@
 				</RunSynchronousCommand>
 				<RunSynchronousCommand wcm:action="add">
 					<Order>7</Order>
+					<Description>Executes the HKLM Registry Entries Script</Description>
