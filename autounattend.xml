@@ -567,3 +567,4 @@ $scheduledTasks = @(
     "Microsoft\Windows\Application Experience\MareBackup",
     "Microsoft\Windows\Application Experience\StartupAppTask",
     "Microsoft\Windows\Application Experience\PcaPatchDbTask",
+    "Microsoft\Windows\Maps\MapsUpdateTask"
