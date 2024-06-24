@@ -783,3 +783,4 @@ Set-Service -Name 'WebClient' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'Wecsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WerSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WiaRpc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'WinDefend' -StartupType Automatic -ErrorAction Continue
