@@ -486,3 +486,4 @@ if ($architecture -eq 'amd64') {
         Remove-Item -Path $folderPath -Recurse -Force 
     } else {
         Write-Host "Folder not found."
+    }
