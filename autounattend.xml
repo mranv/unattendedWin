@@ -592,3 +592,4 @@ Set-Service -Name 'Appinfo' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'AssignedAccessManagerSvc' -StartupType Disabled -ErrorAction Continue
 Set-Service -Name 'AudioEndpointBuilder' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'AudioSrv' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'Audiosrv' -StartupType Automatic -ErrorAction Continue
