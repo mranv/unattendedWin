@@ -1511,3 +1511,4 @@ $appdata = $([Environment]::GetFolderPath('ApplicationData'))
 ri "$appdata\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Tombstones\Microsoft Edge.lnk" -force
 ri "$appdata\Microsoft\Internet Explorer\Quick Launch\Microsoft Edge.lnk" -force
 
+## undo eol unblock trick to prevent latest cumulative update (LCU) failing 
