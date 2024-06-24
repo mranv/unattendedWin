@@ -582,3 +582,4 @@ powercfg -setactive e9a42b02-d5df-448d-aa00-03f14749eb61
 # Set Services to Manual
 Write-Output 'Set Services to Manual: Turns a bunch of system services to manual that do not need to be running all the time.'
 Set-Service -Name 'AJRouter' -StartupType Disabled -ErrorAction Continue
+Set-Service -Name 'ALG' -StartupType Manual -ErrorAction Continue
