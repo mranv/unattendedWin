@@ -42,3 +42,4 @@
 			</RunSynchronous>
 		</component>
 	</settings>
+	<settings pass="generalize"></settings>
