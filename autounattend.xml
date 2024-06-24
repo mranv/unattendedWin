@@ -1411,3 +1411,4 @@ foreach ($f in 'sp','rp','ni','ri') {set-alias -Name $f -Value "${f}_test_path" 
 ## helper for edge reinstall - remove bundled OpenWebSearch redirector and edgeupdate policies
 function global:prepare_edge {
   foreach ($f in 'ni','ri','sp','rp') {set-alias -Name $f -Value "${f}_test_path" -Scope Local -Option AllScope -force -ea 0}
+  $MS=($env:ProgramFiles,${env:ProgramFiles(x86)})[[Environment]::Is64BitOperatingSystem]+'\Microsoft\Edge\Application\msedge.exe'
