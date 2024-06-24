@@ -157,3 +157,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.Windows.DevHome';
   'MicrosoftCorporationII.MicrosoftFamily';
   'Microsoft.WindowsFeedbackHub';
+  'Microsoft.GetHelp';
