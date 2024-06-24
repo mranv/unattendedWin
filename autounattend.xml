@@ -1449,3 +1449,4 @@ $shut = 'explorer','Widgets','widgetservice','msedgewebview2','MicrosoftEdge*','
 $shut+= 'msteams','msfamily','WebViewHost','Clipchamp' 
 cd $env:systemdrive; taskkill /im explorer.exe /f 2>&1 >''; foreach ($p in $shut) {kill -name $p -force -ea 0}
 prepare_edge
+## clear win32 uninstall block
