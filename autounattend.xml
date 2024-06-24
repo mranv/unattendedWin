@@ -800,3 +800,4 @@ Set-Service -Name 'autotimesvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'bthserv' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'camsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'cbdhsvc_*' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'cloudidsvc' -StartupType Manual -ErrorAction Continue
