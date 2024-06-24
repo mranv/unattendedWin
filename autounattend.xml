@@ -500,3 +500,4 @@ if ($architecture -eq 'amd64') {
 } else {
     Write-Host "Unknown architecture: $architecture"
 }
+& 'takeown' '/f' "C:\Windows\System32\Microsoft-Edge-Webview" '/r' 
