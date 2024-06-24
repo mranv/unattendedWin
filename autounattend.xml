@@ -324,3 +324,4 @@ reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\WindowsInkWorkspace" /v AllowWindo
 :: Disables Feedback Notifications
 reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" /v DoNotShowFeedbackNotifications /t REG_DWORD /d 1 /f
 
+:: Disables the Advertising ID for All Users
