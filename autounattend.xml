@@ -1514,3 +1514,4 @@ ri "$appdata\Microsoft\Internet Explorer\Quick Launch\Microsoft Edge.lnk" -force
 ## undo eol unblock trick to prevent latest cumulative update (LCU) failing 
 foreach ($sid in $users) { foreach ($PackageName in $eol) {ri "$store\EndOfLife\$sid\$PackageName" -force >''} }
 
+## set (almost) useless policies to prevent unsolicited reinstalls 
