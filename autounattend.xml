@@ -216,3 +216,4 @@ Where-Object -FilterScript {
     'MathRecognizer';
     'Microsoft.Windows.Notepad';
     'OpenSSH.Client';
+    'Microsoft.Windows.MSPaint';
