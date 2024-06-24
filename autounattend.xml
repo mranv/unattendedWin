@@ -587,3 +587,4 @@ Set-Service -Name 'AppIDSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'AppMgmt' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'AppReadiness' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'AppVClient' -StartupType Disabled -ErrorAction Continue
+Set-Service -Name 'AppXSvc' -StartupType Manual -ErrorAction Continue
