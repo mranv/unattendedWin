@@ -1621,3 +1621,4 @@ $_Press_Enter
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
 	<LayoutOptions StartTileGroupCellWidth="6" />
 	<DefaultLayoutOverride>
+		<StartLayoutCollection>
