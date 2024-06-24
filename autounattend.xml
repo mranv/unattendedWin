@@ -499,3 +499,4 @@ if ($architecture -eq 'amd64') {
     }
 } else {
     Write-Host "Unknown architecture: $architecture"
+}
