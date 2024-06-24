@@ -851,3 +851,4 @@ Set-Service -Name 'vmicvmsession' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vmicvss' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vmvss' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'wbengine' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'wcncsvc' -StartupType Manual -ErrorAction Continue
