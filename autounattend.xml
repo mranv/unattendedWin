@@ -172,3 +172,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.Windows.Photos';
   'Microsoft.PowerAutomateDesktop';
   'MicrosoftCorporationII.QuickAssist';
+  'Microsoft.SkypeApp';
