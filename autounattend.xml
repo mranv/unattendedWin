@@ -1303,3 +1303,4 @@ reg.exe add "HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys" /v Hotkey
 
 :: Disables Snap Assist Flyout
 reg.exe add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v SnapAssist /t REG_DWORD /d 0 /f
+
