@@ -766,3 +766,4 @@ Set-Service -Name 'W32Time' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WEPHOSTSVC' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WFDSConMgrSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WMPNetworkSvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'WManSvc' -StartupType Manual -ErrorAction Continue
