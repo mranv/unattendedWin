@@ -179,3 +179,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'MSTeams';
   'Microsoft.Getstarted';
   'Microsoft.Todos';
+  'Microsoft.WindowsSoundRecorder';
