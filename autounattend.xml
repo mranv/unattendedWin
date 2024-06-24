@@ -721,3 +721,4 @@ Set-Service -Name 'ScDeviceEnum' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'Schedule' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'SecurityHealthService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'Sense' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'SensorDataService' -StartupType Manual -ErrorAction Continue
