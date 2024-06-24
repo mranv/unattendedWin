@@ -613,3 +613,4 @@ Set-Service -Name 'ConsentUxUserSvc_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'CoreMessagingRegistrar' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'CredentialEnrollmentManagerUserSvc_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'CryptSvc' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'CscService' -StartupType Manual -ErrorAction Continue
