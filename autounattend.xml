@@ -370,3 +370,4 @@ reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Edge" /f
 :: Set Registry Keys to Disable Wifi-Sense
 reg.exe add "HKLM\Software\Microsoft\PolicyManager\default\WiFi\AllowWiFiHotSpotReporting" /v Value /t REG_DWORD /d 0 /f
 reg.exe add "HKLM\Software\Microsoft\PolicyManager\default\WiFi\AllowAutoConnectToWiFiSenseHotspots" /v Value /t REG_DWORD /d 0 /f
+
