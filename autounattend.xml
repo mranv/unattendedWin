@@ -823,3 +823,4 @@ Set-Service -Name 'mpssvc' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'msiserver' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'netprofm' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'nsi' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'p2pimsvc' -StartupType Manual -ErrorAction Continue
