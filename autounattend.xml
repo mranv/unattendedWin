@@ -952,3 +952,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\
 :: Disables Background Apps
 reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications" /v GlobalUserDisabled /t REG_DWORD /d 1 /f
 
+:: Disable "Let websites provide locally relevant content by accessing my language list"
