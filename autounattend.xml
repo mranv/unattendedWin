@@ -1445,3 +1445,4 @@ $D1=[uri].module.gettype('System.Diagnostics.Process')."GetM`ethods"(42) |where 
 'SeSecurityPrivilege','SeTakeOwnershipPrivilege','SeBackupPrivilege','SeRestorePrivilege'|foreach {$D1.Invoke($null, @("$_",2))}
 
 ## 3 shut edge & webview clone stuff down and gather install paths
+$shut = 'explorer','Widgets','widgetservice','msedgewebview2','MicrosoftEdge*','chredge','msedge','edge'
