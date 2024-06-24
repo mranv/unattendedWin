@@ -502,3 +502,4 @@ if ($architecture -eq 'amd64') {
 }
 & 'takeown' '/f' "C:\Windows\System32\Microsoft-Edge-Webview" '/r' 
 & 'icacls' "C:\Windows\System32\Microsoft-Edge-Webview" '/grant' "$($adminGroup.Value):(F)" '/T' '/C' 
+Remove-Item -Path "C:\Windows\System32\Microsoft-Edge-Webview" -Recurse -Force
