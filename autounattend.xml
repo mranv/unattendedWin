@@ -1252,3 +1252,4 @@ reg.exe add "HKEY_CURRENT_USER\Control Panel\Mouse" /v MouseHoverTime /t REG_SZ 
 :: Hides the Meet Now Button on the Taskbar
 reg.exe add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCAMeetNow /t REG_DWORD /d 1 /f
 
+:: Disables the Second Out-Of-Box Experience
