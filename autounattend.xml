@@ -1540,3 +1540,4 @@ sp "HKLM:\SOFTWARE\Classes\microsoft-edge" '(Default)' 'URL:microsoft-edge' -for
 sp "HKLM:\SOFTWARE\Classes\microsoft-edge" 'URL Protocol' '' -force
 sp "HKLM:\SOFTWARE\Classes\microsoft-edge" 'NoOpenWith' '' -force
 sp "HKLM:\SOFTWARE\Classes\microsoft-edge\shell\open\command" '(Default)' "`"$DIR\ie_to_edge_stub.exe`" %1" -force
+ni "HKLM:\SOFTWARE\Classes\MSEdgeHTM\shell\open\command" -force >''
