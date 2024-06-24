@@ -1427,3 +1427,4 @@ function global:prepare_edge {
   }
   $edgeupdate='Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}'
   $webvupdate='Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}'
+  $on_actions='on-os-upgrade','on-logon','on-logon-autolaunch','on-logon-startup-boost'
