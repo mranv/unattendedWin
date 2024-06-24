@@ -838,3 +838,4 @@ Set-Service -Name 'swprv' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'tiledatamodelsvc' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'tzautoupdate' -StartupType Disabled -ErrorAction Continue
 Set-Service -Name 'uhssvc' -StartupType Disabled -ErrorAction Continue
+Set-Service -Name 'upnphost' -StartupType Manual -ErrorAction Continue
