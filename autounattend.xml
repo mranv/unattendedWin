@@ -528,3 +528,4 @@ Get-AppxPackage "*Teams*" -AllUsers | Remove-AppxPackage -AllUsers -ErrorAction 
 if ([System.IO.Directory]::Exists($TeamsPath)) {
     Remove-Item $TeamsPath -Force -Recurse -ErrorAction Continue
 }
+
