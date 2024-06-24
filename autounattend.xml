@@ -1396,3 +1396,4 @@ function global:firefox { $url = 'https://download.mozilla.org/?product=firefox-
 function global:edge { $url = 'https://go.microsoft.com/fwlink/?linkid=2108834&Channel=Stable&language=en'
   $setup = "$((new-object -ComObject Shell.Application).NameSpace('shell:Downloads').Self.Path)\MicrosoftEdgeSetup.exe"
   write-host $url; Invoke-WebRequest $url -OutFile $setup; prepare_edge; start $setup
+}
