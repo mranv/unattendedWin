@@ -183,3 +183,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.BingWeather';
   'Microsoft.ZuneMusic';
   'Microsoft.WindowsTerminal';
+  'Microsoft.Xbox.TCUI';
