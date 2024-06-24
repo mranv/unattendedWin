@@ -152,3 +152,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.WindowsCalculator';
   'Microsoft.WindowsCamera';
   'Clipchamp.Clipchamp';
+  'Microsoft.WindowsAlarms';
