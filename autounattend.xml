@@ -1037,3 +1037,4 @@ reg.exe add "HKU\DefaultUser\System\GameConfigStore" /v GameDVR_EFSEFeatureFlags
 reg.exe add "HKU\DefaultUser\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f
 
 :: Enables NumLock on Startup
+reg.exe add "HKU\DefaultUser\Control Panel\Keyboard" /v InitialKeyboardIndicators /t REG_SZ /d 2 /f
