@@ -1618,3 +1618,4 @@ $_Press_Enter
 
 <!--Start Menu Template (Credit:https://schneegans.de/windows/unattend-generator/)-->
 		<File path="C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\LayoutModification.xml"><![CDATA[
+<LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
