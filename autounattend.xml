@@ -164,3 +164,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.BingNews';
   'Microsoft.WindowsNotepad';
   'Microsoft.MicrosoftOfficeHub';
+  'Microsoft.Office.OneNote';
