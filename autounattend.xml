@@ -201,3 +201,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.MicrosoftEdgeDevToolsClient';
   'Microsoft.549981C3F5F10';
   'Microsoft.MixedReality.Portal';
+  'Microsoft.Windows.Ai.Copilot.Provider';
