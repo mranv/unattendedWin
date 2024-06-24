@@ -626,3 +626,4 @@ Set-Service -Name 'DevicesFlowUserSvc_*' -StartupType Manual -ErrorAction Contin
 Set-Service -Name 'Dhcp' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'DiagTrack' -StartupType Disabled -ErrorAction Continue
 Set-Service -Name 'DialogBlockingService' -StartupType Disabled -ErrorAction Continue
+Set-Service -Name 'DispBrokerDesktopSvc' -StartupType Automatic -ErrorAction Continue
