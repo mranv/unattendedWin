@@ -681,3 +681,4 @@ Set-Service -Name 'Netman' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'NgcCtnrSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'NgcSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'NlaSvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'OneSyncSvc_*' -StartupType Automatic -ErrorAction Continue
