@@ -732,3 +732,4 @@ Set-Service -Name 'ShellHWDetection' -StartupType Automatic -ErrorAction Continu
 Set-Service -Name 'SmsRouter' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'Spooler' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'SstpSvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'StateRepository' -StartupType Manual -ErrorAction Continue
