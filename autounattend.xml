@@ -1069,3 +1069,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\
 :: Makes Taskbar Small in Windows 10
 reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "TaskbarSmallIcons" /t REG_DWORD /d 1 /f
 
+:: Restore Windows Photo Viewer & Set as Default Program for Image Files
