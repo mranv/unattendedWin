@@ -399,3 +399,4 @@ reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\CloudContent" /v "DisableC
 :: Disables Cloud Optimized Content
 reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\CloudContent" /v "DisableCloudOptimizedContent" /t REG_DWORD /d 1 /f
 
+:: Deletes Microsoft Edge Registry Entries
