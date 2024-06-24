@@ -1432,3 +1432,4 @@ function global:prepare_edge {
     ri "$p\$edgeupdate\Commands\$launch" -force -ea 0; ri "$p\$webvupdate\Commands\$launch" -force -ea 0
   }}
 }
+## helper for webview reinstall - restore webexperience (widgets) if available
