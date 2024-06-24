@@ -1530,3 +1530,4 @@ foreach ($p in 'HKLM:\SOFTWARE','HKLM:\SOFTWARE\Wow6432Node') { foreach ($launch
   ni "$p\$webvupdate\Commands\$launch" -force >''; sp "$p\$webvupdate\Commands\$launch" 'CommandLine' 'systray.exe' -force
 }}
 
+## 7 add bundled OpenWebSearch script to redirect microsoft-edge: anti-competitive links to the default browser
