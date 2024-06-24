@@ -345,3 +345,4 @@ reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\System
 
 :: Controls whether the memory page file is cleared at shutdown. Value 0 means it will not be cleared, speeding up shutdown. 
 reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v ClearPageFileAtShutdown /t REG_DWORD /d 0 /f
+
