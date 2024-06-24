@@ -736,3 +736,4 @@ Set-Service -Name 'StateRepository' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'StiSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'StorSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SysMain' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'SystemEventsBroker' -StartupType Automatic -ErrorAction Continue
