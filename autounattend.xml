@@ -631,3 +631,4 @@ Set-Service -Name 'DisplayEnhancementService' -StartupType Manual -ErrorAction C
 Set-Service -Name 'DmEnrollmentSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'Dnscache' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'DoSvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'DsSvc' -StartupType Manual -ErrorAction Continue
