@@ -1471,3 +1471,4 @@ $provisioned = get-appxprovisionedpackage -online; $appxpackage = get-appxpackag
 $store = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore'
 $users = @('S-1-5-18'); if (test-path $store) {$users += $((dir $store -ea 0 |where {$_ -like '*S-1-5-21*'}).PSChildName)}
 foreach ($choice in $remove_appx) { if ('' -eq $choice.Trim()) {continue}
+  foreach ($appx in $($provisioned |where {$_.PackageName -like "*$choice*"})) {
