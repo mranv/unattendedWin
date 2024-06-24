@@ -104,3 +104,4 @@
 			</RunSynchronous>
 		</component>
 	</settings>
+	<settings pass="auditSystem"></settings>
