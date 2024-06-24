@@ -623,3 +623,4 @@ Set-Service -Name 'DeviceAssociationService' -StartupType Manual -ErrorAction Co
 Set-Service -Name 'DeviceInstall' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'DevicePickerUserSvc_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'DevicesFlowUserSvc_*' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'Dhcp' -StartupType Automatic -ErrorAction Continue
