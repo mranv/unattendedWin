@@ -805,3 +805,4 @@ Set-Service -Name 'dcsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'defragsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'diagnosticshub.standardcollector.service' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'diagsvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'dmwappushservice' -StartupType Manual -ErrorAction Continue
