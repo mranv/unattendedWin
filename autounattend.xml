@@ -1036,3 +1036,4 @@ reg.exe add "HKU\DefaultUser\System\GameConfigStore" /v GameDVR_EFSEFeatureFlags
 :: Disables Bing Search in Start Menu
 reg.exe add "HKU\DefaultUser\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f
 
+:: Enables NumLock on Startup
