@@ -1544,3 +1544,4 @@ ni "HKLM:\SOFTWARE\Classes\MSEdgeHTM\shell\open\command" -force >''
 sp "HKLM:\SOFTWARE\Classes\MSEdgeHTM" 'NoOpenWith' '' -force
 sp "HKLM:\SOFTWARE\Classes\MSEdgeHTM\shell\open\command" '(Default)' "`"$DIR\ie_to_edge_stub.exe`" %1" -force
 ni "$IFEO\ie_to_edge_stub.exe\0" -force >''
+sp "$IFEO\ie_to_edge_stub.exe" 'UseFilter' 1 -type Dword -force
