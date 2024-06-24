@@ -1326,3 +1326,4 @@ reg.exe add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explore
 fsutil.exe behavior set disableLastAccess 1
 
 :: Restore Windows Photo Viewer & Set as Default Program for Image Files
+:: Restore Windows Photo Viewer
