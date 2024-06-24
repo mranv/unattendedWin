@@ -747,3 +747,4 @@ Set-Service -Name 'TimeBroker' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'TimeBrokerSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'TokenBroker' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'TrkWks' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'TroubleshootingSvc' -StartupType Manual -ErrorAction Continue
