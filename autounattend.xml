@@ -1066,3 +1066,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\CTF\LangBar" /v ShowStatus /t RE
 :: WINDOWS 10 TASKBAR CUSTOMIZATIONS
 :: Makes Taskbar Transparent in Windows 10
 reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "TaskbarAcrylicOpacity" /t REG_DWORD /d 0 /f
+:: Makes Taskbar Small in Windows 10
