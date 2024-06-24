@@ -666,3 +666,4 @@ Set-Service -Name 'MapsBroker' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'McpManagementService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'MessagingService_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'MicrosoftEdgeElevationService' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'MixedRealityOpenXRSvc' -StartupType Manual -ErrorAction Continue
