@@ -470,3 +470,4 @@ if (-not $architecture) {
     Write-Host "Architecture information not found."
 }
 Remove-Item -Path "C:\Program Files (x86)\Microsoft\Edge" -Recurse -Force -ErrorAction Continue
+Remove-Item -Path "C:\Program Files (x86)\Microsoft\EdgeWebView" -Recurse -Force -ErrorAction Continue
