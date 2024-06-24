@@ -1463,3 +1463,4 @@ $edges = @(); $bho = @(); 'LocalApplicationData','ProgramFilesX86','ProgramFiles
 }
 ## use dedicated C:\Scripts path to save OpenWebSearch (due to Sigma rules FUD)
 $DIR = "$env:SystemDrive\Scripts"; mkdir $DIR -ea 0 >''
+## export OpenWebSearch innovative redirector - used by MSEdgeRedirect as well
