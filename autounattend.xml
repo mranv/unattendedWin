@@ -1577,3 +1577,4 @@ if defined NOOP if exist "%PassTrough%" start "" "%PassTrough%" %ARG%
 if defined NOOP exit /b
 set "URL=%CLI:*microsoft-edge=%"
 set "URL=http%URL:*http=%"
+set "FIX=%URL:~-2%"
