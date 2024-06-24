@@ -1622,3 +1622,4 @@ $_Press_Enter
 	<LayoutOptions StartTileGroupCellWidth="6" />
 	<DefaultLayoutOverride>
 		<StartLayoutCollection>
+			<StartLayout GroupCellWidth="6" xmlns="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" />
