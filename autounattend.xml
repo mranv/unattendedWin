@@ -1467,3 +1467,4 @@ $DIR = "$env:SystemDrive\Scripts"; mkdir $DIR -ea 0 >''
 foreach ($b in $bho) { if (test-path $b) { try {copy $b "$DIR\ie_to_edge_stub.exe" -force -ea 0} catch{} } }
 
 ## 4 remove found *Edge* appx packages with unblock tricks
+$provisioned = get-appxprovisionedpackage -online; $appxpackage = get-appxpackage -allusers; $eol = @()
