@@ -1518,3 +1518,4 @@ foreach ($sid in $users) { foreach ($PackageName in $eol) {ri "$store\EndOfLife\
 foreach ($p in 'HKLM:\SOFTWARE\Policies','HKLM:\SOFTWARE','HKLM:\SOFTWARE\WOW6432Node') {
   ni "$p\Microsoft\EdgeUpdate" -force >''
   sp "$p\Microsoft\EdgeUpdate" 'InstallDefault' 0 -type Dword -force
+  sp "$p\Microsoft\EdgeUpdate" 'Install{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}' 0 -type Dword -force
