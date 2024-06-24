@@ -106,3 +106,4 @@
 	</settings>
 	<settings pass="auditSystem"></settings>
 	<settings pass="auditUser"></settings>
+	<settings pass="oobeSystem">
