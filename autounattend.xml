@@ -1457,3 +1457,4 @@ foreach ($hk in 'HKCU:','HKLM:') { foreach ($wow in '','\Wow6432Node') { foreach
 }}}
 ## find all Edge setup.exe and gather BHO paths for OpenWebSearch / MSEdgeRedirect usage
 $edges = @(); $bho = @(); 'LocalApplicationData','ProgramFilesX86','ProgramFiles' |foreach {
+  $folder = [Environment]::GetFolderPath($_); $bho += dir "$folder\Microsoft\Edge*\ie_to_edge_stub.exe" -rec -ea 0
