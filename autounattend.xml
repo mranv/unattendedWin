@@ -750,3 +750,4 @@ Set-Service -Name 'TrkWks' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'TroubleshootingSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'TrustedInstaller' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'UI0Detect' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'UdkUserSvc_*' -StartupType Manual -ErrorAction Continue
