@@ -853,3 +853,4 @@ Set-Service -Name 'vmvss' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'wbengine' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'wcncsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'webthreatdefsvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'webthreatdefusersvc_*' -StartupType Automatic -ErrorAction Continue
