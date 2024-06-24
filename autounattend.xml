@@ -1393,3 +1393,4 @@ function global:firefox { $url = 'https://download.mozilla.org/?product=firefox-
   $setup = "$((new-object -ComObject Shell.Application).NameSpace('shell:Downloads').Self.Path)\Firefox Installer.exe"
   write-host $url; Invoke-WebRequest $url -OutFile $setup; start $setup
 }
+function global:edge { $url = 'https://go.microsoft.com/fwlink/?linkid=2108834&Channel=Stable&language=en'
