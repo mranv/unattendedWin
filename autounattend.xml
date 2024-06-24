@@ -1508,3 +1508,4 @@ foreach ($PF in $env:ProgramFiles,${env:ProgramFiles(x86)}) { if (test-path "$PF
   }  
 }}
 $appdata = $([Environment]::GetFolderPath('ApplicationData'))
+ri "$appdata\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Tombstones\Microsoft Edge.lnk" -force
