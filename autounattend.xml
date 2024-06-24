@@ -113,3 +113,4 @@
             <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
             <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
             <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+            <NetworkLocation>Work</NetworkLocation>
