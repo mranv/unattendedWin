@@ -825,3 +825,4 @@ Set-Service -Name 'netprofm' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'nsi' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'p2pimsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'p2psvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'perceptionsimulation' -StartupType Manual -ErrorAction Continue
