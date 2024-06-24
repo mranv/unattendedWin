@@ -543,3 +543,4 @@ if ($us.Length -gt 0) {
 $registryKeysTeredo = @(
     @{Path = "HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters"; Name = "DisabledComponents"; Type = "DWord"; Value = 1}
 )
+foreach ($key in $registryKeysTeredo) {
