@@ -1085,3 +1085,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.png" /ve /d "PhotoViewer.FileAsso
 reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.tif" /ve /d "PhotoViewer.FileAssoc.Tiff" /f
 reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.tiff" /ve /d "PhotoViewer.FileAssoc.Tiff" /f
 reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.wdp" /ve /d "PhotoViewer.FileAssoc.Tiff" /f
+:: Create Relevant File Associations
