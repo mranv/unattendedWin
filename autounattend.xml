@@ -1430,3 +1430,4 @@ function global:prepare_edge {
   $on_actions='on-os-upgrade','on-logon','on-logon-autolaunch','on-logon-startup-boost'
   foreach ($p in 'HKLM:\SOFTWARE','HKLM:\SOFTWARE\Wow6432Node') { foreach ($launch in $on_actions) {
     ri "$p\$edgeupdate\Commands\$launch" -force -ea 0; ri "$p\$webvupdate\Commands\$launch" -force -ea 0
+  }}
