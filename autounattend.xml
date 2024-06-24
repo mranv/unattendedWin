@@ -698,3 +698,4 @@ Set-Service -Name 'PrintNotify' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'PrintWorkflowUserSvc_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'ProfSvc' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'PushToInstall' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'QWAVE' -StartupType Manual -ErrorAction Continue
