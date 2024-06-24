@@ -1391,3 +1391,4 @@ if ($also_remove_webview -eq 1) {$remove_win32 += "Microsoft EdgeWebView"; $remo
 ## 1 bonus! enter into powershell console: firefox / edge / webview to install a browser / reinstall edge or webview after removal
 function global:firefox { $url = 'https://download.mozilla.org/?product=firefox-stub'
   $setup = "$((new-object -ComObject Shell.Application).NameSpace('shell:Downloads').Self.Path)\Firefox Installer.exe"
+  write-host $url; Invoke-WebRequest $url -OutFile $setup; start $setup
