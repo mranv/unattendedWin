@@ -843,3 +843,4 @@ Set-Service -Name 'vds' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vm3dservice' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vmicguestinterface' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vmicheartbeat' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'vmickvpexchange' -StartupType Manual -ErrorAction Continue
