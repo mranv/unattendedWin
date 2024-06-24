@@ -1584,3 +1584,4 @@ start "" "%Choice%" "%URL%"
 exit
 
 :reg_var [USAGE] call :reg_var "HKCU\Volatile Environment" value-or-"" variable [extra options]
+set {var}=& set {reg}=reg query "%~1" /v %2 /z /se "," /f /e& if %2=="" set {reg}=reg query "%~1" /ve /z /se "," /f /e
