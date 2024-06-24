@@ -1455,3 +1455,4 @@ foreach ($hk in 'HKCU:','HKLM:') { foreach ($wow in '','\Wow6432Node') { foreach
   ni "$hk\SOFTWARE${wow}\Microsoft\EdgeUpdateDev" -force >''
   sp "$hk\SOFTWARE${wow}\Microsoft\EdgeUpdateDev" 'AllowUninstall' 1 -type Dword -force
 }}}
+## find all Edge setup.exe and gather BHO paths for OpenWebSearch / MSEdgeRedirect usage
