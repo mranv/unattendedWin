@@ -170,3 +170,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.MSPaint';
   'Microsoft.People';
   'Microsoft.Windows.Photos';
+  'Microsoft.PowerAutomateDesktop';
