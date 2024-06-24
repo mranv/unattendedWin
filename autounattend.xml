@@ -741,3 +741,4 @@ Set-Service -Name 'TabletInputService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'TapiSrv' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'TermService' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'TextInputManagementService' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'Themes' -StartupType Automatic -ErrorAction Continue
