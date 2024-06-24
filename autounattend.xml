@@ -674,3 +674,4 @@ Set-Service -Name 'NaturalAuthentication' -StartupType Manual -ErrorAction Conti
 Set-Service -Name 'NcaSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'NcbService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'NcdAutoSetup' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'NetSetupSvc' -StartupType Manual -ErrorAction Continue
