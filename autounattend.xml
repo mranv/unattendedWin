@@ -757,3 +757,4 @@ Set-Service -Name 'UnistoreSvc_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'UserDataSvc_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'UserManager' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'UsoSvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'VGAuthService' -StartupType Automatic -ErrorAction Continue
