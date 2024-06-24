@@ -863,3 +863,4 @@ Set-Service -Name 'workfolderssvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'wscsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'wuauserv' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'wudfsvc' -StartupType Manual -ErrorAction Continue
+</File>
