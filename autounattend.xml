@@ -1380,3 +1380,4 @@ shutdown /r -t 1
 <File path="C:\Windows\Setup\Scripts\edgeremoval.bat"><![CDATA[
 @(set "0=%~f0"^)#) & powershell -nop -c iex([io.file]::ReadAllText($env:0)) & exit /b
 #:: made by AveYo source: https://raw.githubusercontent.com/AveYo/fox/main/Edge_Removal.bat
+sp 'HKCU:\Volatile Environment' 'Edge_Removal' @'
