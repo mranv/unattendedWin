@@ -650,3 +650,4 @@ Set-Service -Name 'HomeGroupProvider' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'HvHost' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'IEEtwCollectorService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'IKEEXT' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'InstallService' -StartupType Manual -ErrorAction Continue
