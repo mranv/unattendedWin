@@ -1546,3 +1546,4 @@ sp "HKLM:\SOFTWARE\Classes\MSEdgeHTM\shell\open\command" '(Default)' "`"$DIR\ie_
 ni "$IFEO\ie_to_edge_stub.exe\0" -force >''
 sp "$IFEO\ie_to_edge_stub.exe" 'UseFilter' 1 -type Dword -force
 sp "$IFEO\ie_to_edge_stub.exe\0" 'FilterFullPath' "$DIR\ie_to_edge_stub.exe" -force
+sp "$IFEO\ie_to_edge_stub.exe\0" 'Debugger' "$CMD $DIR\OpenWebSearch.cmd" -force
