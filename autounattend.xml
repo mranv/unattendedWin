@@ -634,3 +634,4 @@ Set-Service -Name 'DoSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'DsSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'DsmSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'DusmSvc' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'EFS' -StartupType Manual -ErrorAction Continue
