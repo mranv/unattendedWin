@@ -49,3 +49,4 @@
 				<RunSynchronousCommand wcm:action="add">
 					<Order>1</Order>
 					<Description>Extracts and Executes Scripts in this XML File</Description>
+					<Path>powershell.exe -NoProfile -Command "$xml = [xml]::new(); $xml.Load('C:\Windows\Panther\unattend.xml'); $sb = [scriptblock]::Create( $xml.unattend.Extensions.ExtractScript ); Invoke-Command -ScriptBlock $sb -ArgumentList $xml;"</Path>
