@@ -957,3 +957,4 @@ reg.exe add "HKU\DefaultUser\Control Panel\International\User Profile" /v HttpAc
 
 :: Disables "Let Windows track app launches to improve Start and search results"
 reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v Start_TrackProgs /t REG_DWORD /d 0 /f
+
