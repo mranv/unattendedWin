@@ -1306,3 +1306,4 @@ reg.exe add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explore
 
 :: Enables Show File Extensions
 reg.exe add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v HideFileExt /t REG_DWORD /d 0 /f
+
