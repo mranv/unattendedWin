@@ -775,3 +775,4 @@ Set-Service -Name 'WalletService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WarpJITSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WbioSrvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'Wcmsvc' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'WcsPlugInService' -StartupType Manual -ErrorAction Continue
