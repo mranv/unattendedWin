@@ -1477,3 +1477,4 @@ foreach ($choice in $remove_appx) { if ('' -eq $choice.Trim()) {continue}
     ni "$store\Deprovisioned\$PackageFamilyName" -force >''; $PackageFamilyName  
     foreach ($sid in $users) {ni "$store\EndOfLife\$sid\$PackageName" -force >''} ; $eol += $PackageName
     dism /online /set-nonremovableapppolicy /packagefamily:$PackageFamilyName /nonremovable:0 >''
+    remove-appxprovisionedpackage -packagename $PackageName -online -allusers >''
