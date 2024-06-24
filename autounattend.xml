@@ -132,3 +132,4 @@ foreach( $file in $Document.unattend.Extensions.File ) {
         $file.GetAttribute( 'path' )
     );
     if( $path.StartsWith( $scriptsDir ) ) {
+        mkdir -Path $scriptsDir -ErrorAction 'SilentlyContinue';
