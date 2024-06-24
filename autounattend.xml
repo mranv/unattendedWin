@@ -287,3 +287,4 @@ reg.exe add "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v "DisableW
 
 :: Disables Bitlocker Auto Encryption on Windows 11 24H2 and Onwards
 reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\BitLocker" /v "PreventDeviceEncryption" /t REG_DWORD /d 1 /f
+reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\EnhancedStorageDevices" /v TCGSecurityActivationDisabled /t REG_DWORD /d 1 /f
