@@ -454,3 +454,4 @@ Invoke-Expression $icaclsCommand | Out-Null
 Set-MpPreference -SubmitSamplesConsent 2 -ErrorAction Continue | Out-Null
 
 # Removes Microsoft Edge
+foreach ($line in $lines) {
