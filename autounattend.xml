@@ -39,3 +39,4 @@
 					<Order>6</Order>
 					<Path>reg.exe add "HKLM\SYSTEM\Setup\LabConfig" /v BypassDiskCheck /t REG_DWORD /d 1 /f</Path>
 				</RunSynchronousCommand>
+			</RunSynchronous>
