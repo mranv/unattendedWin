@@ -678,3 +678,4 @@ Set-Service -Name 'NetSetupSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'NetTcpPortSharing' -StartupType Disabled -ErrorAction Continue
 Set-Service -Name 'Netlogon' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'Netman' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'NgcCtnrSvc' -StartupType Manual -ErrorAction Continue
