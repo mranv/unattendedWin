@@ -855,3 +855,4 @@ Set-Service -Name 'wcncsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'webthreatdefsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'webthreatdefusersvc_*' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'wercplsupport' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'wisvc' -StartupType Manual -ErrorAction Continue
