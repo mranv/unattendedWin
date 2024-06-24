@@ -192,3 +192,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.GamingApp';
   'Microsoft.YourPhone';
   'Microsoft.MicrosoftEdge';
+  'Microsoft.MicrosoftEdge.Stable';
