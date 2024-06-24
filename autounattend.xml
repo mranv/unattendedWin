@@ -260,3 +260,4 @@ reg.exe delete "HKLM\SOFTWARE\Microsoft\WindowsUpdate\Orchestrator\UScheduler_Oo
 :: Prevents New Outlook for Windows Installation
 reg.exe delete "HKLM\SOFTWARE\Microsoft\WindowsUpdate\Orchestrator\UScheduler_Oobe\OutlookUpdate" /f
 
+:: Prevents Chat Auto Installation & Removes Chat Icon
