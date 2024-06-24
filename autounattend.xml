@@ -572,3 +572,4 @@ $scheduledTasks = @(
 foreach ($task in $scheduledTasks) {
     schtasks /Change /TN $task /Disable
 }
+
