@@ -146,3 +146,4 @@ foreach( $file in $Document.unattend.Extensions.File ) {
 <!--Removes Preinstalled Bloatware Apps-->
 		<File path="%TEMP%\remove-packages.ps1">
 Get-AppxProvisionedPackage -Online |
+Where-Object -Property 'DisplayName' -In -Value @(
