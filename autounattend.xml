@@ -280,3 +280,4 @@ reg.exe add "HKLM\SOFTWARE\Microsoft\PolicyManager\current\device\Start" /v Allo
 reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v LongPathsEnabled /t REG_DWORD /d 1 /f
 
 :: Disables News and Interests
+reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 0 /f
