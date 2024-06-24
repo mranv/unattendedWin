@@ -60,3 +60,4 @@
 					<Order>3</Order>
 					<Description>Executes the remove-packages Powershell Script</Description>
 					<Path>powershell.exe -NoProfile -Command "Get-Content -LiteralPath '%TEMP%\remove-packages.ps1' -Raw | Invoke-Expression;"</Path>
+				</RunSynchronousCommand>
