@@ -661,3 +661,4 @@ Set-Service -Name 'LanmanWorkstation' -StartupType Automatic -ErrorAction Contin
 Set-Service -Name 'LicenseManager' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'LxpSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'MSDTC' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'MSiSCSI' -StartupType Manual -ErrorAction Continue
