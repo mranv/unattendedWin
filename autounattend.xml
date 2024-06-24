@@ -1017,3 +1017,4 @@ reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\DWM" /v EnableAeroPeek /
 
 :: Set Registry Keys to Enable End Task With Right Click
 reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v TaskbarDeveloperSettings /t REG_DWORD /d 1 /f
+reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v TaskbarEndTask /t REG_DWORD /d 1 /f
