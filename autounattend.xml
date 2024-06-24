@@ -428,3 +428,4 @@ reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskC
 <!--Powershell Script to Run Various Tweaks, Most of These are from the Chris Titus Tech Windows Utility (Credit:https://christitus.com/windows-tool/)-->
 <File path="C:\Windows\Setup\Scripts\wintweaks.ps1">
 # Creates Desktop Shortcut for the Chris Titus Windows Utility So You Can Easily Launch it to Install Programs
+$path = "C:\Users\Default\Desktop\LAUNCH-CTT-WINUTIL.ps1"
