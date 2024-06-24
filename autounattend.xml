@@ -199,3 +199,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.MicrosoftEdge_44.19041.1266.0_neutral__8wekyb3d8bbwe';
   'Microsoft.OneDrive';
   'Microsoft.MicrosoftEdgeDevToolsClient';
+  'Microsoft.549981C3F5F10';
