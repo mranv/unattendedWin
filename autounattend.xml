@@ -639,3 +639,4 @@ Set-Service -Name 'EapHost' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'EntAppSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'EventLog' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'EventSystem' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'FDResPub' -StartupType Manual -ErrorAction Continue
