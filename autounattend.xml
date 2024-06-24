@@ -195,3 +195,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.MicrosoftEdge.Stable';
   'Microsoft.MicrosoftEdge_8wekyb3d8bbwe';
   'Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe';
+  'Microsoft.MicrosoftEdgeDevToolsClient_1000.19041.1023.0_neutral_neutral_8wekyb3d8bbwe';
