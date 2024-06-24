@@ -217,3 +217,4 @@ Where-Object -FilterScript {
     'Microsoft.Windows.Notepad';
     'OpenSSH.Client';
     'Microsoft.Windows.MSPaint';
+    'Microsoft.Windows.PowerShell.ISE';
