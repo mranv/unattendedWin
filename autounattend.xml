@@ -1440,3 +1440,4 @@ function global:prepare_webview {
   kill -name explorer -ea 0; if ((get-process -name 'explorer' -ea 0) -eq $null) {start explorer}
 }
 
+## 2 enable admin privileges
