@@ -813,3 +813,4 @@ Set-Service -Name 'embeddedmode' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'fdPHost' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'fhsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'gpsvc' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'hidserv' -StartupType Manual -ErrorAction Continue
