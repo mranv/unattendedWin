@@ -168,3 +168,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.OutlookForWindows';
   'Microsoft.Paint';
   'Microsoft.MSPaint';
+  'Microsoft.People';
