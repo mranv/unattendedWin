@@ -942,3 +942,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Personalization\Settings" /v Acc
 reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\InputPersonalization" /v RestrictImplicitTextCollection /t REG_DWORD /d 1 /f
 reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\InputPersonalization" /v RestrictImplicitInkCollection /t REG_DWORD /d 1 /f
 
+:: Disables Automatic Feedback Sampling
