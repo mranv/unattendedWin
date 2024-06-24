@@ -1401,3 +1401,4 @@ function global:webview { $url = 'https://go.microsoft.com/fwlink/p/?LinkId=2124
   $setup = "$((new-object -ComObject Shell.Application).NameSpace('shell:Downloads').Self.Path)\MicrosoftEdgeWebview2Setup.exe"
   write-host $url; Invoke-WebRequest $url -OutFile $setup; prepare_webview; start $setup
 }
+## helper for set-itemproperty remove-itemproperty new-item remove-item with auto test-path
