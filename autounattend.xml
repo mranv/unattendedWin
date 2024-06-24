@@ -781,3 +781,4 @@ Set-Service -Name 'WdiServiceHost' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WdiSystemHost' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WebClient' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'Wecsvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'WerSvc' -StartupType Manual -ErrorAction Continue
