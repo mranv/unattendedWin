@@ -279,3 +279,4 @@ reg.exe add "HKLM\SOFTWARE\Microsoft\PolicyManager\current\device\Start" /v Allo
 :: Enable Long File Paths with Up to 32,767 Characters
 reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v LongPathsEnabled /t REG_DWORD /d 1 /f
 
+:: Disables News and Interests
