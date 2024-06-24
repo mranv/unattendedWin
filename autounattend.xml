@@ -807,3 +807,4 @@ Set-Service -Name 'diagnosticshub.standardcollector.service' -StartupType Manual
 Set-Service -Name 'diagsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'dmwappushservice' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'dot3svc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'edgeupdate' -StartupType Manual -ErrorAction Continue
