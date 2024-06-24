@@ -522,3 +522,4 @@ if ([System.IO.File]::Exists($TeamsUpdateExePath)) {
     $proc.WaitForExit()
 }
 
+Get-AppxPackage "*Teams*" | Remove-AppxPackage -ErrorAction Continue
