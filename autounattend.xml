@@ -504,3 +504,4 @@ if ($architecture -eq 'amd64') {
 & 'icacls' "C:\Windows\System32\Microsoft-Edge-Webview" '/grant' "$($adminGroup.Value):(F)" '/T' '/C' 
 Remove-Item -Path "C:\Windows\System32\Microsoft-Edge-Webview" -Recurse -Force
 
+# Removes OneDrive
