@@ -605,3 +605,4 @@ Set-Service -Name 'BthAvctpSvc' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'BthHFSrv' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'CDPSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'CDPUserSvc_*' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'COMSysApp' -StartupType Manual -ErrorAction Continue
