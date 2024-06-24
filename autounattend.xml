@@ -1075,3 +1075,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.bmp" /ve /d "PhotoViewer.FileAsso
 reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.cr2" /ve /d "PhotoViewer.FileAssoc.Tiff" /f
 reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.dib" /ve /d "PhotoViewer.FileAssoc.Tiff" /f
 reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.gif" /ve /d "PhotoViewer.FileAssoc.Tiff" /f
+reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.ico" /ve /d "PhotoViewer.FileAssoc.Tiff" /f
