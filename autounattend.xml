@@ -1029,3 +1029,4 @@ reg.exe add "HKU\DefaultUser\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c
 :: Disable Xbox GameDVR
 reg.exe add "HKU\DefaultUser\System\GameConfigStore" /v GameDVR_FSEBehavior /t REG_DWORD /d 2 /f
 reg.exe add "HKU\DefaultUser\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 0 /f
+reg.exe add "HKU\DefaultUser\System\GameConfigStore" /v GameDVR_DXGIHonorFSEWindowsCompatible /t REG_DWORD /d 1 /f
