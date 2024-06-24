@@ -214,3 +214,4 @@ Where-Object -FilterScript {
   ($_.Name -split '~')[0] -in @(
     'Browser.InternetExplorer';
     'MathRecognizer';
+    'Microsoft.Windows.Notepad';
