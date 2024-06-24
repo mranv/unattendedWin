@@ -829,3 +829,4 @@ Set-Service -Name 'perceptionsimulation' -StartupType Manual -ErrorAction Contin
 Set-Service -Name 'pla' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'seclogon' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'shpamsvc' -StartupType Disabled -ErrorAction Continue
+Set-Service -Name 'smphost' -StartupType Manual -ErrorAction Continue
