@@ -444,3 +444,4 @@ $ram = (Get-CimInstance -ClassName Win32_PhysicalMemory | Measure-Object -Proper
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control" -Name "SvcHostSplitThresholdInKB" -Type DWord -Value $ram -Force
 
 $autoLoggerDir = "$env:PROGRAMDATA\Microsoft\Diagnosis\ETLLogs\AutoLogger"
+If (Test-Path "$autoLoggerDir\AutoLogger-Diagtrack-Listener.etl") {
