@@ -1625,3 +1625,4 @@ $_Press_Enter
 			<StartLayout GroupCellWidth="6" xmlns="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" />
 		</StartLayoutCollection>
 	</DefaultLayoutOverride>
+</LayoutModificationTemplate>
