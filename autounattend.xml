@@ -90,3 +90,4 @@
 					<Order>9</Order>
           				<Description>Registry Entry to Execute the HKU\DefaultUser Registry Entries Script</Description>
 					<Path>cmd.exe /c "C:\Windows\Setup\Scripts\defaultuser.cmd &gt;&gt;"C:\Windows\Setup\Scripts\defaultuser.log" 2&gt;&amp;1"</Path>
+				</RunSynchronousCommand>
