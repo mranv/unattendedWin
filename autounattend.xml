@@ -712,3 +712,4 @@ Set-Service -Name 'SCPolicySvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SCardSvr' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SDRSVC' -StartupType Manual -ErrorAction Continue 
 Set-Service -Name 'SEMgrSvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'SENS' -StartupType Automatic -ErrorAction Continue
