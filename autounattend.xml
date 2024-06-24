@@ -521,3 +521,4 @@ if ([System.IO.File]::Exists($TeamsUpdateExePath)) {
     $proc = Start-Process $TeamsUpdateExePath "-uninstall -s" -PassThru
     $proc.WaitForExit()
 }
+
