@@ -222,3 +222,4 @@ Where-Object -FilterScript {
     'App.StepsRecorder';
     'Media.WindowsMediaPlayer';
     'Microsoft.Windows.WordPad';
+  );
