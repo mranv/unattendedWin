@@ -1581,3 +1581,4 @@ set "FIX=%URL:~-2%"
 if defined URL if "%FIX%"=="``" set "URL=%URL:~0,-2%"
 call :dec_url
 start "" "%Choice%" "%URL%"
+exit
