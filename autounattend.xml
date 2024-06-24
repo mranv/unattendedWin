@@ -820,3 +820,4 @@ Set-Service -Name 'lfsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'lltdsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'lmhosts' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'mpssvc' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'msiserver' -StartupType Manual -ErrorAction Continue
