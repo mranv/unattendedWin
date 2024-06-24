@@ -711,3 +711,4 @@ Set-Service -Name 'RpcSs' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'SCPolicySvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SCardSvr' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SDRSVC' -StartupType Manual -ErrorAction Continue 
+Set-Service -Name 'SEMgrSvc' -StartupType Manual -ErrorAction Continue
