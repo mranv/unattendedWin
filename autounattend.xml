@@ -1389,3 +1389,4 @@ $remove_win32 = @("Microsoft Edge","Microsoft Edge Update"); $remove_appx = @("M
 if ($also_remove_webview -eq 1) {$remove_win32 += "Microsoft EdgeWebView"; $remove_appx += "WebExperience","Win32WebViewHost"}
 
 ## 1 bonus! enter into powershell console: firefox / edge / webview to install a browser / reinstall edge or webview after removal
+function global:firefox { $url = 'https://download.mozilla.org/?product=firefox-stub'
