@@ -1601,3 +1601,4 @@ rem done
 $@
 [io.file]::WriteAllText("$DIR\OpenWebSearch.cmd", $OpenWebSearch)
 
+## 8 done
