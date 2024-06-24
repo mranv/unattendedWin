@@ -1434,3 +1434,4 @@ function global:prepare_edge {
 }
 ## helper for webview reinstall - restore webexperience (widgets) if available
 function global:prepare_webview {
+  $cfg = @{Register=$true; ForceApplicationShutdown=$true; ForceUpdateFromAnyVersion=$true; DisableDevelopmentMode=$true} 
