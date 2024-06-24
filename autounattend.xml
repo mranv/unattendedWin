@@ -621,3 +621,4 @@ Set-Service -Name 'DevQueryBroker' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'DeviceAssociationBrokerSvc_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'DeviceAssociationService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'DeviceInstall' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'DevicePickerUserSvc_*' -StartupType Manual -ErrorAction Continue
