@@ -455,3 +455,4 @@ Set-MpPreference -SubmitSamplesConsent 2 -ErrorAction Continue | Out-Null
 
 # Removes Microsoft Edge
 foreach ($line in $lines) {
+    if ($line -like '*Architecture : *') {
