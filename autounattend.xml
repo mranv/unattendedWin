@@ -487,3 +487,4 @@ if ($architecture -eq 'amd64') {
     } else {
         Write-Host "Folder not found."
     }
+} elseif ($architecture -eq 'arm64') {
