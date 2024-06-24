@@ -230,3 +230,4 @@ Where-Object -FilterScript {
 <File path="%TEMP%\remove-features.ps1">
 Get-WindowsOptionalFeature -Online |
 Where-Object -Property 'FeatureName' -In -Value @(
+  'Microsoft-SnippingTool';
