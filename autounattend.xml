@@ -1451,3 +1451,4 @@ cd $env:systemdrive; taskkill /im explorer.exe /f 2>&1 >''; foreach ($p in $shut
 prepare_edge
 ## clear win32 uninstall block
 foreach ($hk in 'HKCU:','HKLM:') { foreach ($wow in '','\Wow6432Node') { foreach ($i in $remove_win32) {
+  rp "$hk\SOFTWARE${wow}\Microsoft\Windows\CurrentVersion\Uninstall\$i" 'NoRemove' -force -ea 0
