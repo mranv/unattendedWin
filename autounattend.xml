@@ -1590,3 +1590,4 @@ if not defined {var} (set {reg}=& set "%~3="& exit /b) else if %2=="" set "{var}
 if not defined {var} (set {reg}=& set "%~3="& exit /b) else set {reg}=& set "%~3=%{var}:*)    =%"& set {var}=& exit /b
 
 :dec_url brute url percent decoding by AveYo
+set ".=%URL:!=}%"&setlocal enabledelayedexpansion& rem brute url percent decoding
