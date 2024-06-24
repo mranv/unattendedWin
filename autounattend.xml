@@ -744,3 +744,4 @@ Set-Service -Name 'TextInputManagementService' -StartupType Manual -ErrorAction 
 Set-Service -Name 'Themes' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'TieringEngineService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'TimeBroker' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'TimeBrokerSvc' -StartupType Manual -ErrorAction Continue
