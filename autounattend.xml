@@ -524,3 +524,4 @@ if ([System.IO.File]::Exists($TeamsUpdateExePath)) {
 
 Get-AppxPackage "*Teams*" | Remove-AppxPackage -ErrorAction Continue
 Get-AppxPackage "*Teams*" -AllUsers | Remove-AppxPackage -AllUsers -ErrorAction Continue
+
