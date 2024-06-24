@@ -1465,3 +1465,4 @@ $edges = @(); $bho = @(); 'LocalApplicationData','ProgramFilesX86','ProgramFiles
 $DIR = "$env:SystemDrive\Scripts"; mkdir $DIR -ea 0 >''
 ## export OpenWebSearch innovative redirector - used by MSEdgeRedirect as well
 foreach ($b in $bho) { if (test-path $b) { try {copy $b "$DIR\ie_to_edge_stub.exe" -force -ea 0} catch{} } }
+
