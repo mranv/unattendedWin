@@ -994,3 +994,4 @@ reg.exe add "HKU\DefaultUser\Control Panel\Desktop" /v MenuShowDelay /t REG_DWOR
 reg.exe add "HKU\DefaultUser\Control Panel\Desktop" /v AutoEndTasks /t REG_DWORD /d 1 /f
 
 :: Sets the Mouse hover time to 400 milliseconds
+reg.exe add "HKU\DefaultUser\Control Panel\Mouse" /v MouseHoverTime /t REG_SZ /d "400" /f
