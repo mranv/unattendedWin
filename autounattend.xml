@@ -1554,3 +1554,4 @@ sp "$IFEO\msedge.exe\0" 'Debugger' "$CMD $DIR\OpenWebSearch.cmd" -force
 
 $OpenWebSearch = @$
 @title OpenWebSearch Redux & echo off & set ?= open start menu web search, widgets links or help in your chosen browser - by AveYo
+for /f %%E in ('"prompt $E$S& for %%e in (1) do rem"') do echo;%%E[2t 2>nul & rem AveYo: minimize prompt
