@@ -1607,3 +1607,4 @@ if ((get-process -name 'explorer' -ea 0) -eq $null) {start explorer}
 
 ## 9 bonus enter into powershell console: firefox / edge / webview to install a browser / reinstall edge or webview after removal
 ${.} = [char]27; $firefox = "${.}[38;2;255;165;0m firefox"; $edge = "${.}[94m edge${.}[97m"; $webview = "${.}[94mwebview ${.}[97m"
+write-host "`n${.}[40;32m EDGE REMOVED! ${.}[97m -GET-ANOTHER-BROWSER? ENTER:$firefox ${.}[97m -REINSTALL? ENTER:$edge / $webview"
