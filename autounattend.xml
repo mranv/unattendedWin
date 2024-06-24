@@ -1108,3 +1108,4 @@ reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\
 reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico\UserChoice" /v "ProgId" /t REG_SZ /d "PhotoViewer.FileAssoc.Tiff" /f
 reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.jfif\UserChoice" /v "ProgId" /t REG_SZ /d "PhotoViewer.FileAssoc.Tiff" /f
 reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.jpe\UserChoice" /v "ProgId" /t REG_SZ /d "PhotoViewer.FileAssoc.Tiff" /f
+reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.jpeg\UserChoice" /v "ProgId" /t REG_SZ /d "PhotoViewer.FileAssoc.Tiff" /f
