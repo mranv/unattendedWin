@@ -1064,3 +1064,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Pe
 reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\CTF\LangBar" /v ShowStatus /t REG_DWORD /d 3 /f 
 
 :: WINDOWS 10 TASKBAR CUSTOMIZATIONS
+:: Makes Taskbar Transparent in Windows 10
