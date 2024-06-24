@@ -451,3 +451,4 @@ $icaclsCommand = "icacls `"$autoLoggerDir`" /deny SYSTEM:`"(OI)(CI)F`""
 Invoke-Expression $icaclsCommand | Out-Null
 
 # Disable Defender Auto Sample Submission
+Set-MpPreference -SubmitSamplesConsent 2 -ErrorAction Continue | Out-Null
