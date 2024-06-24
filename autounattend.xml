@@ -1499,3 +1499,4 @@ foreach ($setup in $edges) { if (test-path $setup) {
 
 ## 6 extra cleanup
 foreach ($PF in $env:ProgramFiles,${env:ProgramFiles(x86)}) { if (test-path "$PF\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe") {
+  write-host "$PF\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe /uninstall"
