@@ -6,3 +6,4 @@
 <!--Credit to Chris Titus Tech as this file contains Tweaks from The Windows Utility https://github.com/ChrisTitusTech/winutil | https://christitus.com/windows-tool/ | https://www.youtube.com/@ChrisTitusTech/ -->
 	<settings pass="offlineServicing"></settings>
 	<settings pass="windowsPE">
+		<component name="Microsoft-Windows-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
