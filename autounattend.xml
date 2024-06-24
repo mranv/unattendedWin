@@ -349,3 +349,4 @@ reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Manage
 :: Enables NDU (Network Diagnostic Usage) Service on Startup
 reg.exe add "HKLM\SYSTEM\ControlSet001\Services\Ndu" /v Start /t REG_DWORD /d 2 /f
 
+:: Increases IRP stack size to 30 for the LanmanServer service to Improve Network Performance and Stability
