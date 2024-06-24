@@ -135,3 +135,4 @@ foreach( $file in $Document.unattend.Extensions.File ) {
         mkdir -Path $scriptsDir -ErrorAction 'SilentlyContinue';
     }
     $encoding = switch( [System.IO.Path]::GetExtension( $path ) ) {
+        { $_ -in '.ps1', '.xml' } { [System.Text.Encoding]::UTF8; }
