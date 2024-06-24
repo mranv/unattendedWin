@@ -1459,3 +1459,4 @@ foreach ($hk in 'HKCU:','HKLM:') { foreach ($wow in '','\Wow6432Node') { foreach
 $edges = @(); $bho = @(); 'LocalApplicationData','ProgramFilesX86','ProgramFiles' |foreach {
   $folder = [Environment]::GetFolderPath($_); $bho += dir "$folder\Microsoft\Edge*\ie_to_edge_stub.exe" -rec -ea 0
   if ($also_remove_webview -eq 1) {$edges += dir "$folder\Microsoft\Edge*\setup.exe" -rec -ea 0 |where {$_ -like '*EdgeWebView*'}}
+  $edges += dir "$folder\Microsoft\Edge*\setup.exe" -rec -ea 0 |where {$_ -notlike '*EdgeWebView*'}
