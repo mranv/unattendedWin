@@ -625,3 +625,4 @@ Set-Service -Name 'DevicePickerUserSvc_*' -StartupType Manual -ErrorAction Conti
 Set-Service -Name 'DevicesFlowUserSvc_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'Dhcp' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'DiagTrack' -StartupType Disabled -ErrorAction Continue
+Set-Service -Name 'DialogBlockingService' -StartupType Disabled -ErrorAction Continue
