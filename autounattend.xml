@@ -498,3 +498,4 @@ if ($architecture -eq 'amd64') {
         Write-Host "Folder not found."
     }
 } else {
+    Write-Host "Unknown architecture: $architecture"
