@@ -655,3 +655,4 @@ Set-Service -Name 'InventorySvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'IpxlatCfgSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'KeyIso' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'KtmRm' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'LSM' -StartupType Automatic -ErrorAction Continue
