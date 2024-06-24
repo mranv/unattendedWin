@@ -1497,3 +1497,4 @@ foreach ($setup in $edges) { if (test-path $setup) {
   do {sleep 3} while ((get-process -name 'setup','MicrosoftEdge*' -ea 0).Path -like '*\Microsoft\Edge*')
 }}
 
+## 6 extra cleanup
