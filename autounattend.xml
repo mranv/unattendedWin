@@ -1516,3 +1516,4 @@ foreach ($sid in $users) { foreach ($PackageName in $eol) {ri "$store\EndOfLife\
 
 ## set (almost) useless policies to prevent unsolicited reinstalls 
 foreach ($p in 'HKLM:\SOFTWARE\Policies','HKLM:\SOFTWARE','HKLM:\SOFTWARE\WOW6432Node') {
+  ni "$p\Microsoft\EdgeUpdate" -force >''
