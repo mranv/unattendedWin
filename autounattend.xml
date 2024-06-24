@@ -1049,3 +1049,4 @@ reg.exe add "HKU\DefaultUser\Control Panel\Accessibility\StickyKeys" /v Flags /t
 reg.exe add "HKU\DefaultUser\Control Panel\Accessibility\StickyKeys" /v HotkeyFlags /t REG_SZ /d "58" /f
 
 :: Disables Snap Assist Flyout
+reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v SnapAssist /t REG_DWORD /d 0 /f
