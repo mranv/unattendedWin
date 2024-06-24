@@ -1479,3 +1479,4 @@ foreach ($choice in $remove_appx) { if ('' -eq $choice.Trim()) {continue}
     dism /online /set-nonremovableapppolicy /packagefamily:$PackageFamilyName /nonremovable:0 >''
     remove-appxprovisionedpackage -packagename $PackageName -online -allusers >''
   }
+  foreach ($appx in $($appxpackage |where {$_.PackageFullName -like "*$choice*"})) {
