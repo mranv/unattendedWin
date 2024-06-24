@@ -1315,3 +1315,4 @@ reg.exe add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\
 
 :: Hides the Language Switcher on the Taskbar
 reg.exe add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\CTF\LangBar" /v ShowStatus /t REG_DWORD /d 3 /f
+
