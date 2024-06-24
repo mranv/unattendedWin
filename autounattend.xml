@@ -987,3 +987,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\
 :: Set File Explorer to Open This PC instead of Quick Access
 reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v LaunchTo /t REG_DWORD /d 1 /f
 
+:: Set Display for Performance
