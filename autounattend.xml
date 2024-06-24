@@ -174,3 +174,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'MicrosoftCorporationII.QuickAssist';
   'Microsoft.SkypeApp';
   'Microsoft.ScreenSketch';
+  'Microsoft.MicrosoftSolitaireCollection';
