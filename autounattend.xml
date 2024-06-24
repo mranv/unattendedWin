@@ -659,3 +659,4 @@ Set-Service -Name 'LSM' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'LanmanServer' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'LanmanWorkstation' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'LicenseManager' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'LxpSvc' -StartupType Manual -ErrorAction Continue
