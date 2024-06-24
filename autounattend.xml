@@ -1082,3 +1082,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.jpeg" /ve /d "PhotoViewer.FileAss
 reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.jpg" /ve /d "PhotoViewer.FileAssoc.Tiff" /f
 reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.jxr" /ve /d "PhotoViewer.FileAssoc.Tiff" /f
 reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.png" /ve /d "PhotoViewer.FileAssoc.Tiff" /f
+reg.exe add "HKU\DefaultUser\SOFTWARE\Classes\.tif" /ve /d "PhotoViewer.FileAssoc.Tiff" /f
