@@ -491,3 +491,4 @@ if ($architecture -eq 'amd64') {
     $folderPath = Get-ChildItem -Path "C:\Windows\WinSxS" -Filter "arm64_microsoft-edge-webview_31bf3856ad364e35*" -Directory | Select-Object -ExpandProperty FullName
 
     if ($folderPath) {
+        & 'takeown' '/f' $folderPath '/r'
