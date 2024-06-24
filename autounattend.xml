@@ -1385,3 +1385,4 @@ sp 'HKCU:\Volatile Environment' 'Edge_Removal' @'
 $also_remove_webview = 0
 
 $host.ui.RawUI.WindowTitle = 'Edge Removal - AveYo, 2023.09.09'
+$remove_win32 = @("Microsoft Edge","Microsoft Edge Update"); $remove_appx = @("MicrosoftEdge"); $skip = @() # @("DevTools")
