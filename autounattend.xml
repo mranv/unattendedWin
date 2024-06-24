@@ -584,3 +584,4 @@ Write-Output 'Set Services to Manual: Turns a bunch of system services to manual
 Set-Service -Name 'AJRouter' -StartupType Disabled -ErrorAction Continue
 Set-Service -Name 'ALG' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'AppIDSvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'AppMgmt' -StartupType Manual -ErrorAction Continue
