@@ -797,3 +797,4 @@ Set-Service -Name 'XblGameSave' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'XboxGipSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'XboxNetApiSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'autotimesvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'bthserv' -StartupType Manual -ErrorAction Continue
