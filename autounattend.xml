@@ -1559,3 +1559,4 @@ call :reg_var "HKCU\SOFTWARE\Microsoft\Windows\Shell\Associations\UrlAssociation
 if /i "%ProgID%" equ "MSEdgeHTM" echo;Default browser is set to Edge! Change it or remove OpenWebSearch script. & pause & exit /b
 call :reg_var "HKCR\%ProgID%\shell\open\command" "" Browser
 set Choice=& for %%. in (%Browser%) do if not defined Choice set "Choice=%%~."
+call :reg_var "HKCR\MSEdgeMHT\shell\open\command" "" FallBack
