@@ -127,3 +127,4 @@ param(
 );
 
 $scriptsDir = 'C:\Windows\Setup\Scripts\';
+foreach( $file in $Document.unattend.Extensions.File ) {
