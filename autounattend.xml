@@ -831,3 +831,4 @@ Set-Service -Name 'seclogon' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'shpamsvc' -StartupType Disabled -ErrorAction Continue
 Set-Service -Name 'smphost' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'spectrum' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'sppsvc' -StartupType Manual -ErrorAction Continue
