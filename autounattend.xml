@@ -66,3 +66,4 @@
 					<Description>Executes the remove-caps Powershell Script</Description>
 					<Path>powershell.exe -NoProfile -Command "Get-Content -LiteralPath '%TEMP%\remove-caps.ps1' -Raw | Invoke-Expression;"</Path>
 				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
