@@ -899,3 +899,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot"
 
 :: Removes Store Banner in Notepad
 reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Notepad" /v ShowStoreBanner /t REG_DWORD /d 0 /f
+
