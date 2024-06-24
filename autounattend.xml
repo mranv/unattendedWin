@@ -1495,3 +1495,4 @@ foreach ($setup in $edges) { if (test-path $setup) {
   $removal = "--uninstall $target --system-level --verbose-logging --force-uninstall"
   try {write-host $setup $removal; start -wait $setup -args $removal} catch {}
   do {sleep 3} while ((get-process -name 'setup','MicrosoftEdge*' -ea 0).Path -like '*\Microsoft\Edge*')
+}}
