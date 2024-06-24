@@ -1538,3 +1538,4 @@ $CMD = "$env:systemroot\system32\conhost.exe $MIN" # AveYo: minimize prompt - se
 ni "HKLM:\SOFTWARE\Classes\microsoft-edge\shell\open\command" -force >''
 sp "HKLM:\SOFTWARE\Classes\microsoft-edge" '(Default)' 'URL:microsoft-edge' -force
 sp "HKLM:\SOFTWARE\Classes\microsoft-edge" 'URL Protocol' '' -force
+sp "HKLM:\SOFTWARE\Classes\microsoft-edge" 'NoOpenWith' '' -force
