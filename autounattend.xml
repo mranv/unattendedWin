@@ -787,3 +787,4 @@ Set-Service -Name 'WinDefend' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'WinHttpAutoProxySvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WinRM' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'Winmgmt' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'WlanSvc' -StartupType Automatic -ErrorAction Continue
