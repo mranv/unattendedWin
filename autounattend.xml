@@ -764,3 +764,4 @@ Set-Service -Name 'VacSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'VaultSvc' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'W32Time' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WEPHOSTSVC' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'WFDSConMgrSvc' -StartupType Manual -ErrorAction Continue
