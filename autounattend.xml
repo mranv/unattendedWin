@@ -646,3 +646,4 @@ Set-Service -Name 'FrameServer' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'FrameServerMonitor' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'GraphicsPerfSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'HomeGroupListener' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'HomeGroupProvider' -StartupType Manual -ErrorAction Continue
