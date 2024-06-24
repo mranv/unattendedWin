@@ -458,3 +458,4 @@ foreach ($line in $lines) {
     if ($line -like '*Architecture : *') {
         $architecture = $line -replace 'Architecture : ',''
         # If the architecture is x64, replace it with amd64
+        if ($architecture -eq 'x64') {
