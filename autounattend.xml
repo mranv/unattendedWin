@@ -436,3 +436,4 @@ $content | Out-File -FilePath $path -Encoding UTF8 -Force
 # Configure Maximum Password Age in Windows
 net.exe accounts /maxpwage:UNLIMITED
 
+# Allow Execution of PowerShell Script Files
