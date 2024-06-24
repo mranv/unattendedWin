@@ -439,3 +439,4 @@ net.exe accounts /maxpwage:UNLIMITED
 # Allow Execution of PowerShell Script Files
 Set-ExecutionPolicy -Scope 'LocalMachine' -ExecutionPolicy 'RemoteSigned' -Force
 
+# Groups or splits svchost.exe processes based on the amount of physical memory in the system to optimize performance
