@@ -704,3 +704,4 @@ Set-Service -Name 'RasMan' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'RemoteAccess' -StartupType Disabled -ErrorAction Continue
 Set-Service -Name 'RemoteRegistry' -StartupType Disabled -ErrorAction Continue
 Set-Service -Name 'RetailDemo' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'RmSvc' -StartupType Manual -ErrorAction Continue
