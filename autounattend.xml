@@ -688,3 +688,4 @@ Set-Service -Name 'PNRPsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'PcaSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'PeerDistSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'PenService_*' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'PerfHost' -StartupType Manual -ErrorAction Continue
