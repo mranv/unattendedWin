@@ -181,3 +181,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.Todos';
   'Microsoft.WindowsSoundRecorder';
   'Microsoft.BingWeather';
+  'Microsoft.ZuneMusic';
