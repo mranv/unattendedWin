@@ -616,3 +616,4 @@ Set-Service -Name 'CryptSvc' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'CscService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'DPS' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'DcomLaunch' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'DcpSvc' -StartupType Manual -ErrorAction Continue
