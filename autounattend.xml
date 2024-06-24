@@ -1007,3 +1007,4 @@ reg.exe add "HKU\DefaultUser\Control Panel\Desktop" /v DragFullWindows /t REG_SZ
 reg.exe add "HKU\DefaultUser\Control Panel\Desktop" /v MenuShowDelay /t REG_SZ /d 200 /f
 reg.exe add "HKU\DefaultUser\Control Panel\Desktop\WindowMetrics" /v MinAnimate /t REG_SZ /d 0 /f
 reg.exe add "HKU\DefaultUser\Control Panel\Keyboard" /v KeyboardDelay /t REG_DWORD /d 0 /f
+reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ListviewAlphaSelect /t REG_DWORD /d 0 /f
