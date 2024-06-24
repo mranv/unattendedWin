@@ -867,3 +867,4 @@ Set-Service -Name 'wudfsvc' -StartupType Manual -ErrorAction Continue
 
 <!--Default User Registry Entries - This Sets Features for the Default User-->
 <File path="C:\Windows\Setup\Scripts\defaultuser.cmd">
+:: Disabling the Delivery of Personalized or Suggested Content Like App Suggestions, Tips, and Advertisements in Windows
