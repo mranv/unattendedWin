@@ -691,3 +691,4 @@ Set-Service -Name 'PenService_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'PerfHost' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'PhoneSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'PimIndexMaintenanceSvc_*' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'PlugPlay' -StartupType Manual -ErrorAction Continue
