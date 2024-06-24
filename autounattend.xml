@@ -1604,3 +1604,4 @@ $@
 ## 8 done
 $done = gp 'Registry::HKEY_Users\S-1-5-21*\Volatile*' Edge_Removal -ea 0; if ($done) {rp $done.PSPath Edge_Removal -force -ea 0}
 if ((get-process -name 'explorer' -ea 0) -eq $null) {start explorer}
+
