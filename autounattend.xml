@@ -463,3 +463,4 @@ foreach ($line in $lines) {
         }
         Write-Host "Architecture: $architecture"
         break
+    }
