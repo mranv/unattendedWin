@@ -70,3 +70,4 @@
 					<Order>5</Order>
 					<Description>Executes the remove-features Powershell Script</Description>
 					<Path>powershell.exe -NoProfile -Command "Get-Content -LiteralPath '%TEMP%\remove-features.ps1' -Raw | Invoke-Expression;"</Path>
+				</RunSynchronousCommand>
