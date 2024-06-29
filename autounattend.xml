@@ -4,3 +4,4 @@
 <!--Compiled by Memory's Tech Tips https://www.youtube.com/@memstechtips | https://memstechtips.blogspot.com/ -->
 <!--Credit to Schneegans.de as the Base File was Generated with https://schneegans.de/windows/unattend-generator/ -->
 <!--Credit to Chris Titus Tech as this file contains Tweaks from The Windows Utility https://github.com/ChrisTitusTech/winutil | https://christitus.com/windows-tool/ | https://www.youtube.com/@ChrisTitusTech/ -->
+	<settings pass="offlineServicing"></settings>
