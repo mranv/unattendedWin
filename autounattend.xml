@@ -14,3 +14,4 @@
 				<AcceptEula>true</AcceptEula>
 			</UserData>
 			<RunSynchronous>
+				<!--Bypass Windows 11 System Requirements-->
