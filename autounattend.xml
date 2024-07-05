@@ -15,3 +15,4 @@
 			</UserData>
 			<RunSynchronous>
 				<!--Bypass Windows 11 System Requirements-->
+				<RunSynchronousCommand wcm:action="add">
