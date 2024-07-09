@@ -22,3 +22,4 @@
 				<RunSynchronousCommand wcm:action="add">
 					<Order>2</Order>
 					<Path>reg.exe add "HKLM\SYSTEM\Setup\LabConfig" /v BypassSecureBootCheck /t REG_DWORD /d 1 /f</Path>
+				</RunSynchronousCommand>
