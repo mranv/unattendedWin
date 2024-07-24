@@ -48,3 +48,4 @@
 			<RunSynchronous>
 				<RunSynchronousCommand wcm:action="add">
 					<Order>1</Order>
+					<Description>Extracts and Executes Scripts in this XML File</Description>
