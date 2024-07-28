@@ -55,3 +55,4 @@
 					<Order>2</Order>
           				<Description>Loads the Default User Registry Hive so Changes Can be Made to It</Description>
 					<Path>reg.exe load "HKU\DefaultUser" "C:\Users\Default\NTUSER.DAT"</Path>
+				</RunSynchronousCommand>
