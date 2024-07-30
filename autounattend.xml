@@ -58,3 +58,4 @@
 				</RunSynchronousCommand>
 				<RunSynchronousCommand wcm:action="add">
 					<Order>3</Order>
+					<Description>Executes the remove-packages Powershell Script</Description>
