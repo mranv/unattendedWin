@@ -63,3 +63,4 @@
 				</RunSynchronousCommand>
 				<RunSynchronousCommand wcm:action="add">
 					<Order>4</Order>
+					<Description>Executes the remove-caps Powershell Script</Description>
