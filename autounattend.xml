@@ -80,3 +80,4 @@
 					<Order>7</Order>
 					<Description>Executes the HKLM Registry Entries Script</Description>
 					<Path>cmd.exe /c "C:\Windows\Setup\Scripts\localmachine.cmd &gt;&gt;"C:\Windows\Setup\Scripts\localmachine.log" 2&gt;&amp;1"</Path>
+				</RunSynchronousCommand>    
