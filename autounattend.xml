@@ -83,3 +83,4 @@
 				</RunSynchronousCommand>    
 				<RunSynchronousCommand wcm:action="add">
 					<Order>8</Order>
+         				<Description>Registry Entry to Execute the HKCU Registry Entry Script the First Time a New User Logs In</Description>
