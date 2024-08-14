@@ -84,3 +84,4 @@
 				<RunSynchronousCommand wcm:action="add">
 					<Order>8</Order>
          				<Description>Registry Entry to Execute the HKCU Registry Entry Script the First Time a New User Logs In</Description>
+					<Path>reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Runonce" /v "currentuser" /t REG_SZ /d "C:\Windows\Setup\Scripts\currentuser.cmd" /f</Path>
