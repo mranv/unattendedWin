@@ -87,3 +87,4 @@
 					<Path>reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Runonce" /v "currentuser" /t REG_SZ /d "C:\Windows\Setup\Scripts\currentuser.cmd" /f</Path>
 				</RunSynchronousCommand>
           			<RunSynchronousCommand wcm:action="add">
+					<Order>9</Order>
