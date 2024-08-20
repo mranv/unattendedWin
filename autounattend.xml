@@ -94,3 +94,4 @@
 				<RunSynchronousCommand wcm:action="add">
 					<Order>10</Order>
           				<Description>Executes the EdgeRemoval batch file</Description>
+					<Path>cmd.exe /c "C:\Windows\Setup\Scripts\edgeremoval.bat &gt;&gt;"C:\Windows\Setup\Scripts\edgeremoval.log" 2&gt;&amp;1"</Path>
