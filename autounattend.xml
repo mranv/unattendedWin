@@ -101,3 +101,4 @@
           				<Description>Unloads the Default User Registry Hive</Description>
 					<Path>reg.exe unload "HKU\DefaultUser"</Path>
 				</RunSynchronousCommand>          
+			</RunSynchronous>
