@@ -102,3 +102,4 @@
 					<Path>reg.exe unload "HKU\DefaultUser"</Path>
 				</RunSynchronousCommand>          
 			</RunSynchronous>
+		</component>
