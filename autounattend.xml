@@ -112,3 +112,4 @@
             <HideEULAPage>true</HideEULAPage>
             <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
             <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+            <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
