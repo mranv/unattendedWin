@@ -126,3 +126,4 @@ param(
     [xml] $Document
 );
 
+$scriptsDir = 'C:\Windows\Setup\Scripts\';
