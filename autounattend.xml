@@ -144,3 +144,4 @@ foreach( $file in $Document.unattend.Extensions.File ) {
 		</ExtractScript>
 
 <!--Removes Preinstalled Bloatware Apps-->
+		<File path="%TEMP%\remove-packages.ps1">
