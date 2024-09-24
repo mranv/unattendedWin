@@ -154,3 +154,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Clipchamp.Clipchamp';
   'Microsoft.WindowsAlarms';
   'Microsoft.549981C3F5F10';
+  'Microsoft.Windows.DevHome';
