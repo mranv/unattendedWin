@@ -160,3 +160,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.GetHelp';
   'microsoft.windowscommunicationsapps';
   'Microsoft.WindowsMaps';
+  'Microsoft.ZuneVideo';
