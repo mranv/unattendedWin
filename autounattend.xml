@@ -165,3 +165,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.WindowsNotepad';
   'Microsoft.MicrosoftOfficeHub';
   'Microsoft.Office.OneNote';
+  'Microsoft.OutlookForWindows';
