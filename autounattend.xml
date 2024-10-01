@@ -167,3 +167,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.Office.OneNote';
   'Microsoft.OutlookForWindows';
   'Microsoft.Paint';
+  'Microsoft.MSPaint';
