@@ -173,3 +173,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.PowerAutomateDesktop';
   'MicrosoftCorporationII.QuickAssist';
   'Microsoft.SkypeApp';
+  'Microsoft.ScreenSketch';
