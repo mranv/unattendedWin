@@ -176,3 +176,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.ScreenSketch';
   'Microsoft.MicrosoftSolitaireCollection';
   'Microsoft.MicrosoftStickyNotes';
+  'MSTeams';
