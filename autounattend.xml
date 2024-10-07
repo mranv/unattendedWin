@@ -177,3 +177,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.MicrosoftSolitaireCollection';
   'Microsoft.MicrosoftStickyNotes';
   'MSTeams';
+  'Microsoft.Getstarted';
