@@ -178,3 +178,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.MicrosoftStickyNotes';
   'MSTeams';
   'Microsoft.Getstarted';
+  'Microsoft.Todos';
