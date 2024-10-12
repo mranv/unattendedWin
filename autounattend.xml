@@ -186,3 +186,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.Xbox.TCUI';
   'Microsoft.XboxApp';
   'Microsoft.XboxGameOverlay';
+  'Microsoft.XboxGamingOverlay';
