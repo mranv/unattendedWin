@@ -187,3 +187,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.XboxApp';
   'Microsoft.XboxGameOverlay';
   'Microsoft.XboxGamingOverlay';
+  'Microsoft.XboxIdentityProvider';
