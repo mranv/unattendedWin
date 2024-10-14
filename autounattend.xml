@@ -189,3 +189,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.XboxGamingOverlay';
   'Microsoft.XboxIdentityProvider';
   'Microsoft.XboxSpeechToTextOverlay';
+  'Microsoft.GamingApp';
