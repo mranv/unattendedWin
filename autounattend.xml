@@ -193,3 +193,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.YourPhone';
   'Microsoft.MicrosoftEdge';
   'Microsoft.MicrosoftEdge.Stable';
+  'Microsoft.MicrosoftEdge_8wekyb3d8bbwe';
