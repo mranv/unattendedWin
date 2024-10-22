@@ -203,3 +203,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.MixedReality.Portal';
   'Microsoft.Windows.Ai.Copilot.Provider';
   'Microsoft.WindowsMeetNow';
+  'Microsoft.WindowsStore';
