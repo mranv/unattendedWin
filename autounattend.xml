@@ -205,3 +205,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.WindowsMeetNow';
   'Microsoft.WindowsStore';
 ) | Remove-AppxProvisionedPackage -AllUsers -Online *&gt;&amp;1 &gt;&gt; "$env:TEMP\remove-packages.log";
+		</File>
