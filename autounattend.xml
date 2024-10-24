@@ -207,3 +207,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
 ) | Remove-AppxProvisionedPackage -AllUsers -Online *&gt;&amp;1 &gt;&gt; "$env:TEMP\remove-packages.log";
 		</File>
 		
+<!--Removes Legacy Apps-->		
