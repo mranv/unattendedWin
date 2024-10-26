@@ -210,3 +210,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
 <!--Removes Legacy Apps-->		
 		<File path="%TEMP%\remove-caps.ps1">
 Get-WindowsCapability -Online |
+Where-Object -FilterScript {
