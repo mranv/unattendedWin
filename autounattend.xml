@@ -211,3 +211,4 @@ Where-Object -Property 'DisplayName' -In -Value @(
 		<File path="%TEMP%\remove-caps.ps1">
 Get-WindowsCapability -Online |
 Where-Object -FilterScript {
+  ($_.Name -split '~')[0] -in @(
