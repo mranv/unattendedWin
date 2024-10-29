@@ -215,3 +215,4 @@ Where-Object -FilterScript {
     'Browser.InternetExplorer';
     'MathRecognizer';
     'Microsoft.Windows.Notepad';
+    'OpenSSH.Client';
