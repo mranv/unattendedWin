@@ -218,3 +218,4 @@ Where-Object -FilterScript {
     'OpenSSH.Client';
     'Microsoft.Windows.MSPaint';
     'Microsoft.Windows.PowerShell.ISE';
+    'App.Support.QuickAssist';
