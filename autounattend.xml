@@ -219,3 +219,4 @@ Where-Object -FilterScript {
     'Microsoft.Windows.MSPaint';
     'Microsoft.Windows.PowerShell.ISE';
     'App.Support.QuickAssist';
+    'App.StepsRecorder';
