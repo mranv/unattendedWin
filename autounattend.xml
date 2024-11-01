@@ -220,3 +220,4 @@ Where-Object -FilterScript {
     'Microsoft.Windows.PowerShell.ISE';
     'App.Support.QuickAssist';
     'App.StepsRecorder';
+    'Media.WindowsMediaPlayer';
