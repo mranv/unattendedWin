@@ -225,3 +225,4 @@ Where-Object -FilterScript {
   );
 } | Remove-WindowsCapability -Online *&gt;&amp;1 &gt;&gt; "$env:TEMP\remove-caps.log";
 		</File>
+
