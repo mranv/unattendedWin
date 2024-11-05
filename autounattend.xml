@@ -227,3 +227,4 @@ Where-Object -FilterScript {
 		</File>
 
 <!--Removes Legacy Snipping Tool-->
+<File path="%TEMP%\remove-features.ps1">
