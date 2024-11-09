@@ -234,3 +234,4 @@ Where-Object -Property 'FeatureName' -In -Value @(
 ) | Disable-WindowsOptionalFeature -Online -Remove -NoRestart *&gt;&amp;1 &gt;&gt; "$env:TEMP\remove-features.log";
 </File>    
 
+<!--Local Machine Registry Entries - This Sets Features for the Local Machine-->
