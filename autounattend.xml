@@ -235,3 +235,4 @@ Where-Object -Property 'FeatureName' -In -Value @(
 </File>    
 
 <!--Local Machine Registry Entries - This Sets Features for the Local Machine-->
+<File path="C:\Windows\Setup\Scripts\localmachine.cmd">
