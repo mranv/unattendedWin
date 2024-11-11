@@ -237,3 +237,4 @@ Where-Object -Property 'FeatureName' -In -Value @(
 <!--Local Machine Registry Entries - This Sets Features for the Local Machine-->
 <File path="C:\Windows\Setup\Scripts\localmachine.cmd">
 :: Bypasses Microsoft Account Creation
+reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE" /v BypassNRO /t REG_DWORD /d 1 /f
