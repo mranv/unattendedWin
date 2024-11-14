@@ -243,3 +243,4 @@ reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE" /v BypassNRO /
 reg.exe add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v EnableLUA /t REG_DWORD /d 0 /f
 
 :: Disable Windows Spotlight and set the normal Windows Picture as the desktop background
+:: Disable Windows Spotlight on the lock screen
