@@ -301,3 +301,4 @@ reg.exe add "HKLM\Software\Policies\Microsoft\Windows\Windows Search" /v AllowCo
 
 :: Disables Activity History
 reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v EnableActivityFeed /t REG_DWORD /d 0 /f
+reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v PublishUserActivities /t REG_DWORD /d 0 /f
