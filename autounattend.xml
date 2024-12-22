@@ -308,3 +308,4 @@ reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v UploadUserActiv
 reg.exe add "HKLM\System\CurrentControlSet\Control\Session Manager\Power" /v HibernateEnabled /t REG_DWORD /d 0 /f
 reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings" /v ShowHibernateOption /t REG_DWORD /d 0 /f
 
+:: Disables Location Tracking
