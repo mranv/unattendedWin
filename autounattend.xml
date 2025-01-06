@@ -334,3 +334,4 @@ reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting" /v Disable
 reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config" /v DODownloadMode /t REG_DWORD /d 0 /f
 
 :: Disables Remote Assistance
+reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Remote Assistance" /v fAllowToGetHelp /t REG_DWORD /d 0 /f
