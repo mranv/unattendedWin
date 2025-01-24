@@ -366,3 +366,4 @@ reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\System
 
 :: Fix Managed by your organization in Edge
 reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Edge" /f
+
