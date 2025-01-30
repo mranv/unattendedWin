@@ -375,3 +375,4 @@ reg.exe add "HKLM\Software\Microsoft\PolicyManager\default\WiFi\AllowAutoConnect
 reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\StorageSense\Parameters\StoragePolicy" /v 01 /t REG_DWORD /d 0 /f
 
 :: Disable Xbox GameDVR
+reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\GameDVR" /v AllowGameDVR /t REG_DWORD /d 0 /f
