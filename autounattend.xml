@@ -396,3 +396,4 @@ reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\PushToInstall" /v "DisablePushToIn
 :: Disables Consumer Account State Content
 reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\CloudContent" /v "DisableConsumerAccountStateContent" /t REG_DWORD /d 1 /f
 
+:: Disables Cloud Optimized Content
