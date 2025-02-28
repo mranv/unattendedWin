@@ -426,3 +426,4 @@ reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskC
 </File>
 
 <!--Powershell Script to Run Various Tweaks, Most of These are from the Chris Titus Tech Windows Utility (Credit:https://christitus.com/windows-tool/)-->
+<File path="C:\Windows\Setup\Scripts\wintweaks.ps1">
