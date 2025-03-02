@@ -429,3 +429,4 @@ reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskC
 <File path="C:\Windows\Setup\Scripts\wintweaks.ps1">
 # Creates Desktop Shortcut for the Chris Titus Windows Utility So You Can Easily Launch it to Install Programs
 $path = "C:\Users\Default\Desktop\LAUNCH-CTT-WINUTIL.ps1"
+$content = 'irm https://www.christitus.com/win | iex'
