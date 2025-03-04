@@ -433,3 +433,4 @@ $content = 'irm https://www.christitus.com/win | iex'
 New-Item -Path $path -ItemType File -Force
 $content | Out-File -FilePath $path -Encoding UTF8 -Force
 
+# Configure Maximum Password Age in Windows
