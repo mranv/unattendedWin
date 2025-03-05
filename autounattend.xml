@@ -434,3 +434,4 @@ New-Item -Path $path -ItemType File -Force
 $content | Out-File -FilePath $path -Encoding UTF8 -Force
 
 # Configure Maximum Password Age in Windows
+net.exe accounts /maxpwage:UNLIMITED
