@@ -437,3 +437,4 @@ $content | Out-File -FilePath $path -Encoding UTF8 -Force
 net.exe accounts /maxpwage:UNLIMITED
 
 # Allow Execution of PowerShell Script Files
+Set-ExecutionPolicy -Scope 'LocalMachine' -ExecutionPolicy 'RemoteSigned' -Force
