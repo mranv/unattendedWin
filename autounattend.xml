@@ -460,3 +460,4 @@ foreach ($line in $lines) {
         # If the architecture is x64, replace it with amd64
         if ($architecture -eq 'x64') {
             $architecture = 'amd64'
+        }
