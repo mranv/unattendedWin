@@ -461,3 +461,4 @@ foreach ($line in $lines) {
         if ($architecture -eq 'x64') {
             $architecture = 'amd64'
         }
+        Write-Host "Architecture: $architecture"
