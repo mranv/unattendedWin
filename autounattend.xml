@@ -462,3 +462,4 @@ foreach ($line in $lines) {
             $architecture = 'amd64'
         }
         Write-Host "Architecture: $architecture"
+        break
