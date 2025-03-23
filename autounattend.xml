@@ -466,3 +466,4 @@ foreach ($line in $lines) {
     }
 }
 
+if (-not $architecture) {
