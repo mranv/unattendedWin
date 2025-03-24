@@ -467,3 +467,4 @@ foreach ($line in $lines) {
 }
 
 if (-not $architecture) {
+    Write-Host "Architecture information not found."
