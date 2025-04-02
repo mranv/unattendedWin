@@ -483,3 +483,4 @@ if ($architecture -eq 'amd64') {
     if ($folderPath) {
         & 'takeown' '/f' $folderPath '/r' 
         & icacls $folderPath  "/grant" "$($adminGroup.Value):(F)" '/T' '/C' 
+        Remove-Item -Path $folderPath -Recurse -Force 
