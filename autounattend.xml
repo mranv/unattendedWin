@@ -495,3 +495,4 @@ if ($architecture -eq 'amd64') {
         & icacls $folderPath  "/grant" "$($adminGroup.Value):(F)" '/T' '/C' 
         Remove-Item -Path $folderPath -Recurse -Force 
     } else {
+        Write-Host "Folder not found."
