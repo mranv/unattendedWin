@@ -505,3 +505,4 @@ if ($architecture -eq 'amd64') {
 Remove-Item -Path "C:\Windows\System32\Microsoft-Edge-Webview" -Recurse -Force
 
 # Removes OneDrive
+Remove-Item "C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\OneDrive.lnk" -ErrorAction Continue
