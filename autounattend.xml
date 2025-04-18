@@ -510,3 +510,4 @@ Remove-Item "C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Progr
 Remove-Item "C:\Windows\System32\OneDriveSetup.exe" -ErrorAction Continue
 Remove-Item "C:\Windows\SysWOW64\OneDriveSetup.exe" -ErrorAction Continue
  
+# Removes Microsoft Teams
