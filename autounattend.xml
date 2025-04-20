@@ -514,3 +514,4 @@ Remove-Item "C:\Windows\SysWOW64\OneDriveSetup.exe" -ErrorAction Continue
 $TeamsPath = [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Microsoft', 'Teams')
 $TeamsUpdateExePath = [System.IO.Path]::Combine($TeamsPath, 'Update.exe')
 
+Stop-Process -Name "*teams*" -Force -ErrorAction Continue
