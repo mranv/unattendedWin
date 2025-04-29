@@ -529,3 +529,4 @@ if ([System.IO.Directory]::Exists($TeamsPath)) {
     Remove-Item $TeamsPath -Force -Recurse -ErrorAction Continue
 }
 
+# Uninstall from Uninstall registry key UninstallString
