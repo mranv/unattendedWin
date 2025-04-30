@@ -531,3 +531,4 @@ if ([System.IO.Directory]::Exists($TeamsPath)) {
 
 # Uninstall from Uninstall registry key UninstallString
 $us = (Get-ChildItem -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall, HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall | Get-ItemProperty | Where-Object { $_.DisplayName -like '*Teams*'}).UninstallString
+if ($us.Length -gt 0) {
