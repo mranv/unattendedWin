@@ -534,3 +534,4 @@ $us = (Get-ChildItem -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Unins
 if ($us.Length -gt 0) {
     $us = ($us.Replace('/I', '/uninstall ') + ' /quiet').Replace('  ', ' ')
     $FilePath = ($us.Substring(0, $us.IndexOf('.exe') + 4).Trim())
+    $ProcessArgs = ($us.Substring($us.IndexOf('.exe') + 5).Trim().replace('  ', ' '))
