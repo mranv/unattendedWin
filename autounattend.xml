@@ -536,3 +536,4 @@ if ($us.Length -gt 0) {
     $FilePath = ($us.Substring(0, $us.IndexOf('.exe') + 4).Trim())
     $ProcessArgs = ($us.Substring($us.IndexOf('.exe') + 5).Trim().replace('  ', ' '))
     $proc = Start-Process -FilePath $FilePath -Args $ProcessArgs -PassThru
+    $proc.WaitForExit()
