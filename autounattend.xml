@@ -538,3 +538,4 @@ if ($us.Length -gt 0) {
     $proc = Start-Process -FilePath $FilePath -Args $ProcessArgs -PassThru
     $proc.WaitForExit()
 }
+
