@@ -539,3 +539,4 @@ if ($us.Length -gt 0) {
     $proc.WaitForExit()
 }
 
+# Disables Teredo
