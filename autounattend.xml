@@ -540,3 +540,4 @@ if ($us.Length -gt 0) {
 }
 
 # Disables Teredo
+$registryKeysTeredo = @(
