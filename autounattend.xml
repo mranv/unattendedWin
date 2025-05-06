@@ -542,3 +542,4 @@ if ($us.Length -gt 0) {
 # Disables Teredo
 $registryKeysTeredo = @(
     @{Path = "HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters"; Name = "DisabledComponents"; Type = "DWord"; Value = 1}
+)
