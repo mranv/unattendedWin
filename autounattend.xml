@@ -548,3 +548,4 @@ foreach ($key in $registryKeysTeredo) {
 }
 netsh interface teredo set state disabled
 
+# Disables IPv6
