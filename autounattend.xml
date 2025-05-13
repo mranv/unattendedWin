@@ -554,3 +554,4 @@ Disable-NetAdapterBinding -Name "*" -ComponentID ms_tcpip6
 
 # Disables Telemetry
 # Disable Scheduled Tasks
+$scheduledTasks = @(
