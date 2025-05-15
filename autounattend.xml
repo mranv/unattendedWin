@@ -557,3 +557,4 @@ Disable-NetAdapterBinding -Name "*" -ComponentID ms_tcpip6
 $scheduledTasks = @(
     "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser",
     "Microsoft\Windows\Application Experience\ProgramDataUpdater",
+    "Microsoft\Windows\Autochk\Proxy",
