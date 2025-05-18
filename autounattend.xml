@@ -563,3 +563,4 @@ $scheduledTasks = @(
     "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector",
     "Microsoft\Windows\Feedback\Siuf\DmClient",
     "Microsoft\Windows\Feedback\Siuf\DmClientOnScenarioDownload",
+    "Microsoft\Windows\Windows Error Reporting\QueueReporting",
