@@ -565,3 +565,4 @@ $scheduledTasks = @(
     "Microsoft\Windows\Feedback\Siuf\DmClientOnScenarioDownload",
     "Microsoft\Windows\Windows Error Reporting\QueueReporting",
     "Microsoft\Windows\Application Experience\MareBackup",
+    "Microsoft\Windows\Application Experience\StartupAppTask",
