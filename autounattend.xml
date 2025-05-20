@@ -566,3 +566,4 @@ $scheduledTasks = @(
     "Microsoft\Windows\Windows Error Reporting\QueueReporting",
     "Microsoft\Windows\Application Experience\MareBackup",
     "Microsoft\Windows\Application Experience\StartupAppTask",
+    "Microsoft\Windows\Application Experience\PcaPatchDbTask",
