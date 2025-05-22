@@ -569,3 +569,4 @@ $scheduledTasks = @(
     "Microsoft\Windows\Application Experience\PcaPatchDbTask",
     "Microsoft\Windows\Maps\MapsUpdateTask"
 )
+foreach ($task in $scheduledTasks) {
