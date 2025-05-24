@@ -573,3 +573,4 @@ foreach ($task in $scheduledTasks) {
     schtasks /Change /TN $task /Disable
 }
 
+# Enable the Ultimate Performance power plan
