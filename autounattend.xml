@@ -577,3 +577,4 @@ foreach ($task in $scheduledTasks) {
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 
 # Set the Ultimate Performance power plan as active
+powercfg -setactive e9a42b02-d5df-448d-aa00-03f14749eb61
