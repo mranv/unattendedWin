@@ -595,3 +595,4 @@ Set-Service -Name 'AudioSrv' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'Audiosrv' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'AxInstSV' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'BDESVC' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'BFE' -StartupType Automatic -ErrorAction Continue
