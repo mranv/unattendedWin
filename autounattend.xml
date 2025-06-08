@@ -599,3 +599,4 @@ Set-Service -Name 'BFE' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'BITS' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'BTAGService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'BcastDVRUserService_*' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'BrokerInfrastructure' -StartupType Automatic -ErrorAction Continue
