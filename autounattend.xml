@@ -600,3 +600,4 @@ Set-Service -Name 'BITS' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'BTAGService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'BcastDVRUserService_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'BrokerInfrastructure' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'Browser' -StartupType Manual -ErrorAction Continue
