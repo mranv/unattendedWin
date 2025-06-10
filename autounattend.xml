@@ -602,3 +602,4 @@ Set-Service -Name 'BcastDVRUserService_*' -StartupType Manual -ErrorAction Conti
 Set-Service -Name 'BrokerInfrastructure' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'Browser' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'BthAvctpSvc' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'BthHFSrv' -StartupType Automatic -ErrorAction Continue
