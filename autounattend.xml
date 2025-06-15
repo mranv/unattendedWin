@@ -611,3 +611,4 @@ Set-Service -Name 'CertPropSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'ClipSVC' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'ConsentUxUserSvc_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'CoreMessagingRegistrar' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'CredentialEnrollmentManagerUserSvc_*' -StartupType Manual -ErrorAction Continue
