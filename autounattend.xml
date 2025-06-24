@@ -627,3 +627,4 @@ Set-Service -Name 'Dhcp' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'DiagTrack' -StartupType Disabled -ErrorAction Continue
 Set-Service -Name 'DialogBlockingService' -StartupType Disabled -ErrorAction Continue
 Set-Service -Name 'DispBrokerDesktopSvc' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'DisplayEnhancementService' -StartupType Manual -ErrorAction Continue
