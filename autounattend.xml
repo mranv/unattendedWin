@@ -629,3 +629,4 @@ Set-Service -Name 'DialogBlockingService' -StartupType Disabled -ErrorAction Con
 Set-Service -Name 'DispBrokerDesktopSvc' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'DisplayEnhancementService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'DmEnrollmentSvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'Dnscache' -StartupType Automatic -ErrorAction Continue
