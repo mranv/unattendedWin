@@ -636,3 +636,4 @@ Set-Service -Name 'DsmSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'DusmSvc' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'EFS' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'EapHost' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'EntAppSvc' -StartupType Manual -ErrorAction Continue
