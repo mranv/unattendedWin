@@ -642,3 +642,4 @@ Set-Service -Name 'EventSystem' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'FDResPub' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'Fax' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'FontCache' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'FrameServer' -StartupType Manual -ErrorAction Continue
