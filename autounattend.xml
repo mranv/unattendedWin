@@ -653,3 +653,4 @@ Set-Service -Name 'IKEEXT' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'InstallService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'InventorySvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'IpxlatCfgSvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'KeyIso' -StartupType Automatic -ErrorAction Continue
