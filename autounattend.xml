@@ -668,3 +668,4 @@ Set-Service -Name 'MessagingService_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'MicrosoftEdgeElevationService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'MixedRealityOpenXRSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'MpsSvc' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'MsKeyboardFilter' -StartupType Manual -ErrorAction Continue
