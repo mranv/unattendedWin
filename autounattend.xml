@@ -670,3 +670,4 @@ Set-Service -Name 'MixedRealityOpenXRSvc' -StartupType Manual -ErrorAction Conti
 Set-Service -Name 'MpsSvc' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'MsKeyboardFilter' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'NPSMSvc_*' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'NaturalAuthentication' -StartupType Manual -ErrorAction Continue
