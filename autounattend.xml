@@ -672,3 +672,4 @@ Set-Service -Name 'MsKeyboardFilter' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'NPSMSvc_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'NaturalAuthentication' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'NcaSvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'NcbService' -StartupType Manual -ErrorAction Continue
