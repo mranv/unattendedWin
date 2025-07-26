@@ -682,3 +682,4 @@ Set-Service -Name 'NgcCtnrSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'NgcSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'NlaSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'OneSyncSvc_*' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'P9RdrService_*' -StartupType Manual -ErrorAction Continue
