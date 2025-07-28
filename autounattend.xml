@@ -685,3 +685,4 @@ Set-Service -Name 'OneSyncSvc_*' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'P9RdrService_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'PNRPAutoReg' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'PNRPsvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'PcaSvc' -StartupType Manual -ErrorAction Continue
