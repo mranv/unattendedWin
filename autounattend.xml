@@ -693,3 +693,4 @@ Set-Service -Name 'PhoneSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'PimIndexMaintenanceSvc_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'PlugPlay' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'PolicyAgent' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'Power' -StartupType Automatic -ErrorAction Continue
