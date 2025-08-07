@@ -702,3 +702,4 @@ Set-Service -Name 'QWAVE' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'RasAuto' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'RasMan' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'RemoteAccess' -StartupType Disabled -ErrorAction Continue
+Set-Service -Name 'RemoteRegistry' -StartupType Disabled -ErrorAction Continue
