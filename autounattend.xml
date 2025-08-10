@@ -708,3 +708,4 @@ Set-Service -Name 'RmSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'RpcEptMapper' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'RpcLocator' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'RpcSs' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'SCPolicySvc' -StartupType Manual -ErrorAction Continue
