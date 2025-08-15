@@ -716,3 +716,4 @@ Set-Service -Name 'SENS' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'SNMPTRAP' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SNMPTrap' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SSDPSRV' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'SamSs' -StartupType Automatic -ErrorAction Continue
