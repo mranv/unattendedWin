@@ -719,3 +719,4 @@ Set-Service -Name 'SSDPSRV' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SamSs' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'ScDeviceEnum' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'Schedule' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'SecurityHealthService' -StartupType Manual -ErrorAction Continue
