@@ -723,3 +723,4 @@ Set-Service -Name 'SecurityHealthService' -StartupType Manual -ErrorAction Conti
 Set-Service -Name 'Sense' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SensorDataService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SensorService' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'SensrSvc' -StartupType Manual -ErrorAction Continue
