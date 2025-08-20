@@ -725,3 +725,4 @@ Set-Service -Name 'SensorDataService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SensorService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SensrSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SessionEnv' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'SgrmBroker' -StartupType Automatic -ErrorAction Continue
