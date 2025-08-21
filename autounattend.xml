@@ -726,3 +726,4 @@ Set-Service -Name 'SensorService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SensrSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SessionEnv' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'SgrmBroker' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'SharedAccess' -StartupType Manual -ErrorAction Continue
