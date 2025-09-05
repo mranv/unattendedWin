@@ -752,3 +752,4 @@ Set-Service -Name 'TrustedInstaller' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'UI0Detect' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'UdkUserSvc_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'UevAgentService' -StartupType Disabled -ErrorAction Continue
+Set-Service -Name 'UmRdpService' -StartupType Manual -ErrorAction Continue
