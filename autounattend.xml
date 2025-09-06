@@ -754,3 +754,4 @@ Set-Service -Name 'UdkUserSvc_*' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'UevAgentService' -StartupType Disabled -ErrorAction Continue
 Set-Service -Name 'UmRdpService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'UnistoreSvc_*' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'UserDataSvc_*' -StartupType Manual -ErrorAction Continue
