@@ -762,3 +762,4 @@ Set-Service -Name 'VMTools' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'VSS' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'VacSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'VaultSvc' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'W32Time' -StartupType Manual -ErrorAction Continue
