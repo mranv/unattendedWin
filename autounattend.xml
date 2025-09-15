@@ -770,3 +770,4 @@ Set-Service -Name 'WManSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WPDBusEnum' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WSService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WSearch' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'WaaSMedicSvc' -StartupType Manual -ErrorAction Continue
