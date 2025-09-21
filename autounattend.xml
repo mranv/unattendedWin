@@ -780,3 +780,4 @@ Set-Service -Name 'WdNisSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WdiServiceHost' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WdiSystemHost' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WebClient' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'Wecsvc' -StartupType Manual -ErrorAction Continue
