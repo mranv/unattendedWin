@@ -788,3 +788,4 @@ Set-Service -Name 'WinHttpAutoProxySvc' -StartupType Manual -ErrorAction Continu
 Set-Service -Name 'WinRM' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'Winmgmt' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'WlanSvc' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'WpcMonSvc' -StartupType Manual -ErrorAction Continue
