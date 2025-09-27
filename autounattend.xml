@@ -791,3 +791,4 @@ Set-Service -Name 'WlanSvc' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'WpcMonSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WpnService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WpnUserService_*' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'WwanSvc' -StartupType Manual -ErrorAction Continue
