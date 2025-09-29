@@ -793,3 +793,4 @@ Set-Service -Name 'WpnService' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'WpnUserService_*' -StartupType Automatic -ErrorAction Continue
 Set-Service -Name 'WwanSvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'XblAuthManager' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'XblGameSave' -StartupType Manual -ErrorAction Continue
