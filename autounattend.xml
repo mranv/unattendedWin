@@ -810,3 +810,4 @@ Set-Service -Name 'dot3svc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'edgeupdate' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'edgeupdatem' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'embeddedmode' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'fdPHost' -StartupType Manual -ErrorAction Continue
