@@ -828,3 +828,4 @@ Set-Service -Name 'p2psvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'perceptionsimulation' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'pla' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'seclogon' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'shpamsvc' -StartupType Disabled -ErrorAction Continue
