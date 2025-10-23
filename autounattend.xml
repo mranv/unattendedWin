@@ -836,3 +836,4 @@ Set-Service -Name 'ssh-agent' -StartupType Disabled -ErrorAction Continue
 Set-Service -Name 'svsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'swprv' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'tiledatamodelsvc' -StartupType Automatic -ErrorAction Continue
+Set-Service -Name 'tzautoupdate' -StartupType Disabled -ErrorAction Continue
