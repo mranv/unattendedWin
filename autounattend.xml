@@ -841,3 +841,4 @@ Set-Service -Name 'uhssvc' -StartupType Disabled -ErrorAction Continue
 Set-Service -Name 'upnphost' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vds' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vm3dservice' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'vmicguestinterface' -StartupType Manual -ErrorAction Continue
