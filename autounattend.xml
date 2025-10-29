@@ -845,3 +845,4 @@ Set-Service -Name 'vmicguestinterface' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vmicheartbeat' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vmickvpexchange' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vmicrdv' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'vmicshutdown' -StartupType Manual -ErrorAction Continue
