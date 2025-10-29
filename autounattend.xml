@@ -846,3 +846,4 @@ Set-Service -Name 'vmicheartbeat' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vmickvpexchange' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vmicrdv' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vmicshutdown' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'vmictimesync' -StartupType Manual -ErrorAction Continue
