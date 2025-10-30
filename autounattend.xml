@@ -848,3 +848,4 @@ Set-Service -Name 'vmicrdv' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vmicshutdown' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vmictimesync' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'vmicvmsession' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'vmicvss' -StartupType Manual -ErrorAction Continue
