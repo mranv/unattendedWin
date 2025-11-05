@@ -858,3 +858,4 @@ Set-Service -Name 'wercplsupport' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'wisvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'wlidsvc' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'wlpasvc' -StartupType Manual -ErrorAction Continue
+Set-Service -Name 'wmiApSrv' -StartupType Manual -ErrorAction Continue
