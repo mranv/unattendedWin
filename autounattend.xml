@@ -865,3 +865,4 @@ Set-Service -Name 'wuauserv' -StartupType Manual -ErrorAction Continue
 Set-Service -Name 'wudfsvc' -StartupType Manual -ErrorAction Continue
 </File>
 
+<!--Default User Registry Entries - This Sets Features for the Default User-->
