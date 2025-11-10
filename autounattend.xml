@@ -866,3 +866,4 @@ Set-Service -Name 'wudfsvc' -StartupType Manual -ErrorAction Continue
 </File>
 
 <!--Default User Registry Entries - This Sets Features for the Default User-->
+<File path="C:\Windows\Setup\Scripts\defaultuser.cmd">
