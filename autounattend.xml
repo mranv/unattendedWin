@@ -897,3 +897,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Speech_OneCore\Settings\OnlineSp
 reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce" /v "UninstallCopilot" /t REG_SZ /d "" /f
 reg.exe add "HKU\DefaultUser\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot" /v TurnOffWindowsCopilot /t REG_DWORD /d 1 /f
 
+:: Removes Store Banner in Notepad
