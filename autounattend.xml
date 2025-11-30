@@ -901,3 +901,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot"
 reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Notepad" /v ShowStoreBanner /t REG_DWORD /d 0 /f
 
 :: Removes OneDrive
+reg.exe delete "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v OneDriveSetup /f
