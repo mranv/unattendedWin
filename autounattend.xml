@@ -906,3 +906,4 @@ reg.exe delete "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /
 :: Align the taskbar to the left on Windows 11
 reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v TaskbarAl /t REG_DWORD /d 0 /f
 
+:: Hides Search Icon on Taskbar
