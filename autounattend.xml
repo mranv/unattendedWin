@@ -955,3 +955,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Microsoft\Windows\CurrentVersion\Backgroun
 :: Disable "Let websites provide locally relevant content by accessing my language list"
 reg.exe add "HKU\DefaultUser\Control Panel\International\User Profile" /v HttpAcceptLanguageOptOut /t REG_DWORD /d 1 /f
 
+:: Disables "Let Windows track app launches to improve Start and search results"
