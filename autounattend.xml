@@ -1025,3 +1025,4 @@ reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\PushNotif
 
 :: Set Classic Right-Click Menu for Windows 11
 reg.exe add "HKU\DefaultUser\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /ve /t REG_SZ /d "" /f
+
