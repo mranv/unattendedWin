@@ -1040,3 +1040,4 @@ reg.exe add "HKU\DefaultUser\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v Di
 reg.exe add "HKU\DefaultUser\Control Panel\Keyboard" /v InitialKeyboardIndicators /t REG_SZ /d 2 /f
 
 :: Disables Mouse Acceleration
+reg.exe add "HKU\DefaultUser\Control Panel\Mouse" /v MouseSpeed /t REG_SZ /d "0" /f
