@@ -1118,3 +1118,4 @@ reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\
 </File>
 
 <!--Current User Registry Entries - This Sets Features for the Current User as Some Entries Defined in DefaultUser is Reset for Some Reason-->
+<File path="C:\Windows\Setup\Scripts\currentuser.cmd">
