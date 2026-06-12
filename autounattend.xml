@@ -1236,3 +1236,4 @@ reg.exe add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputPersonalization\TrainedDa
 
 :: Manages and displays the status of ongoing operations, such as file copy, move, delete, etc.
 reg.exe add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\OperationStatusManager" /v EnthusiastMode /t REG_DWORD /d 1 /f
+
