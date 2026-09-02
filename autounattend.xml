@@ -1377,3 +1377,4 @@ shutdown /r -t 1
 </File>
 
 <!--Additional Edge Removal Script by Chris Titus & AveYo to Ensure Complete Removal-->
+<File path="C:\Windows\Setup\Scripts\edgeremoval.bat"><![CDATA[
