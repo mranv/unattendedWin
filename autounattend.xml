@@ -1382,3 +1382,4 @@ shutdown /r -t 1
 #:: made by AveYo source: https://raw.githubusercontent.com/AveYo/fox/main/Edge_Removal.bat
 sp 'HKCU:\Volatile Environment' 'Edge_Removal' @'
 
+$also_remove_webview = 0
