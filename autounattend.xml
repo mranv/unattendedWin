@@ -1383,3 +1383,4 @@ shutdown /r -t 1
 sp 'HKCU:\Volatile Environment' 'Edge_Removal' @'
 
 $also_remove_webview = 0
+
