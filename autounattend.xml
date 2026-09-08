@@ -1388,3 +1388,4 @@ $host.ui.RawUI.WindowTitle = 'Edge Removal - AveYo, 2023.09.09'
 $remove_win32 = @("Microsoft Edge","Microsoft Edge Update"); $remove_appx = @("MicrosoftEdge"); $skip = @() # @("DevTools")
 if ($also_remove_webview -eq 1) {$remove_win32 += "Microsoft EdgeWebView"; $remove_appx += "WebExperience","Win32WebViewHost"}
 
+## 1 bonus! enter into powershell console: firefox / edge / webview to install a browser / reinstall edge or webview after removal
