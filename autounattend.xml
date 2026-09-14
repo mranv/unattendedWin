@@ -1398,3 +1398,4 @@ function global:edge { $url = 'https://go.microsoft.com/fwlink/?linkid=2108834&C
   write-host $url; Invoke-WebRequest $url -OutFile $setup; prepare_edge; start $setup
 }
 function global:webview { $url = 'https://go.microsoft.com/fwlink/p/?LinkId=2124703'
+  $setup = "$((new-object -ComObject Shell.Application).NameSpace('shell:Downloads').Self.Path)\MicrosoftEdgeWebview2Setup.exe"
