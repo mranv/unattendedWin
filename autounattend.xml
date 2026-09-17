@@ -1403,3 +1403,4 @@ function global:webview { $url = 'https://go.microsoft.com/fwlink/p/?LinkId=2124
 }
 ## helper for set-itemproperty remove-itemproperty new-item remove-item with auto test-path
 function global:sp_test_path { if (test-path $args[0]) {Microsoft.PowerShell.Management\Set-ItemProperty @args} else {
+  Microsoft.PowerShell.Management\New-Item $args[0] -force -ea 0 >''; Microsoft.PowerShell.Management\Set-ItemProperty @args} }
