@@ -1410,3 +1410,4 @@ function global:ri_test_path { if (test-path $args[0]) {Microsoft.PowerShell.Man
 foreach ($f in 'sp','rp','ni','ri') {set-alias -Name $f -Value "${f}_test_path" -Scope Local -Option AllScope -force -ea 0}
 ## helper for edge reinstall - remove bundled OpenWebSearch redirector and edgeupdate policies
 function global:prepare_edge {
+  foreach ($f in 'ni','ri','sp','rp') {set-alias -Name $f -Value "${f}_test_path" -Scope Local -Option AllScope -force -ea 0}
