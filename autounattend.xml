@@ -1418,3 +1418,4 @@ function global:prepare_edge {
   ri 'Registry::HKEY_Users\S-1-5-21*\Software\Classes\MSEdgeHTM' -recurse -force -ea 0
   ni "HKLM:\SOFTWARE\Classes\microsoft-edge\shell\open\command" -force -ea 0 >''
   sp "HKLM:\SOFTWARE\Classes\microsoft-edge\shell\open\command" '(Default)' "`"$MS`" --single-argument %%1" -force -ea 0 
+  ni "HKLM:\SOFTWARE\Classes\MSEdgeHTM\shell\open\command" -force -ea 0 >''
