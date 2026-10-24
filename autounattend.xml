@@ -1468,3 +1468,4 @@ foreach ($b in $bho) { if (test-path $b) { try {copy $b "$DIR\ie_to_edge_stub.ex
 
 ## 4 remove found *Edge* appx packages with unblock tricks
 $provisioned = get-appxprovisionedpackage -online; $appxpackage = get-appxpackage -allusers; $eol = @()
+$store = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore'
