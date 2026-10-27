@@ -1473,3 +1473,4 @@ $users = @('S-1-5-18'); if (test-path $store) {$users += $((dir $store -ea 0 |wh
 foreach ($choice in $remove_appx) { if ('' -eq $choice.Trim()) {continue}
   foreach ($appx in $($provisioned |where {$_.PackageName -like "*$choice*"})) {
     $next = !1; foreach ($no in $skip) {if ($appx.PackageName -like "*$no*") {$next = !0}} ; if ($next) {continue}
+    $PackageName = $appx.PackageName; $PackageFamilyName = ($appxpackage |where {$_.Name -eq $appx.DisplayName}).PackageFamilyName 
