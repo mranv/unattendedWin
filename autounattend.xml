@@ -1493,3 +1493,4 @@ foreach ($choice in $remove_appx) { if ('' -eq $choice.Trim()) {continue}
 foreach ($setup in $edges) { if (test-path $setup) {
   if ($setup -like '*EdgeWebView*') {$target = "--msedgewebview"} else {$target = "--msedge"}
   $removal = "--uninstall $target --system-level --verbose-logging --force-uninstall"
+  try {write-host $setup $removal; start -wait $setup -args $removal} catch {}
