@@ -1505,3 +1505,4 @@ foreach ($PF in $env:ProgramFiles,${env:ProgramFiles(x86)}) { if (test-path "$PF
   if ($also_remove_webview -eq 1) { foreach ($hk in 'HKCU:','HKLM:') { foreach ($wow in '','\Wow6432Node') {
     ri "$hk\SOFTWARE${wow}\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge Update" -rec -force -ea 0 }}
     ri "$PF\Microsoft\EdgeUpdate" -rec -force -ea 0; Unregister-ScheduledTask -TaskName MicrosoftEdgeUpdate* -Confirm:$false -ea 0
+  }  
