@@ -1520,3 +1520,4 @@ foreach ($p in 'HKLM:\SOFTWARE\Policies','HKLM:\SOFTWARE','HKLM:\SOFTWARE\WOW643
   sp "$p\Microsoft\EdgeUpdate" 'InstallDefault' 0 -type Dword -force
   sp "$p\Microsoft\EdgeUpdate" 'Install{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}' 0 -type Dword -force
   sp "$p\Microsoft\EdgeUpdate" 'Install{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}' 1 -type Dword -force
+  sp "$p\Microsoft\EdgeUpdate" 'DoNotUpdateToEdgeWithChromium' 1 -type Dword -force
