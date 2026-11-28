@@ -1528,3 +1528,4 @@ $on_actions='on-os-upgrade','on-logon','on-logon-autolaunch','on-logon-startup-b
 foreach ($p in 'HKLM:\SOFTWARE','HKLM:\SOFTWARE\Wow6432Node') { foreach ($launch in $on_actions) {
   ni "$p\$edgeupdate\Commands\$launch" -force >''; sp "$p\$edgeupdate\Commands\$launch" 'CommandLine' 'systray.exe' -force
   ni "$p\$webvupdate\Commands\$launch" -force >''; sp "$p\$webvupdate\Commands\$launch" 'CommandLine' 'systray.exe' -force
+}}
